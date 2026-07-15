@@ -1,7 +1,8 @@
 import { MetadataRoute } from "next";
+export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://pdfverse-ai.com"; // Replace with your production domain
+  const baseUrl = "https://www.mypdfimage.com";
 
   const tools = [
     "merge-pdf",

@@ -1,7 +1,8 @@
 import { MetadataRoute } from "next";
+export const dynamic = "force-static";
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = "https://pdfverse-ai.com"; // Replace with your production domain
+  const baseUrl = "https://www.mypdfimage.com";
 
   return {
     rules: [
