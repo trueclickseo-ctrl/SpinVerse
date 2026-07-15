@@ -1,4 +1,42 @@
+import { Metadata } from "next";
 import ToolWorkspace from "./ToolWorkspace";
+
+export async function generateMetadata({ params }: { params: Promise<{ tool: string }> }): Promise<Metadata> {
+  const p = await params;
+  const slug = p.tool;
+  
+  // Format slug name (e.g., merge-pdf -> Merge PDF)
+  let name = slug
+    .split("-")
+    .map(word => {
+      if (word === "pdf") return "PDF";
+      if (word === "kb") return "KB";
+      if (word === "mb") return "MB";
+      if (word === "ocr") return "OCR";
+      if (word === "sbi") return "SBI";
+      if (word === "po") return "PO";
+      if (word === "ssc") return "SSC";
+      if (word === "otr") return "OTR";
+      if (word === "tnpsc") return "TNPSC";
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    })
+    .join(" ");
+
+  let title = `${name} Online - My PDF Image`;
+  let description = `Free online tool to ${name.toLowerCase()} securely in your browser. Fast, local, and private processing. No registration or signup required.`;
+
+  // Custom targeted overrides for image resizers and KB compressors
+  if (slug.includes("resizer") || slug.includes("compressor") || slug.includes("-to-")) {
+    title = `${name} Online - Compress Image KBs | My PDF Image`;
+    description = `Free online utility to ${name.toLowerCase()}. Resize and compress your photos to meet official recruitment portal upload limits securely.`;
+  }
+  
+  return {
+    title,
+    description,
+    keywords: `${slug.replace(/-/g, " ")}, free ${slug.replace(/-/g, " ")}, online ${slug.replace(/-/g, " ")}, my pdf image`,
+  };
+}
 
 export function generateStaticParams() {
   return [

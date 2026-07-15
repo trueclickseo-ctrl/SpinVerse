@@ -60,6 +60,7 @@ export default function Footer() {
             
             <div style={styles.linksCol}>
               <h4 style={styles.colTitle}>Legal & Contact</h4>
+              <Link href="/about" style={styles.link}>About Us</Link>
               <Link href="/privacy" style={styles.link}>Privacy Policy</Link>
               <Link href="/terms" style={styles.link}>Terms of Service</Link>
               <Link href="/security" style={styles.link}>Security Info</Link>

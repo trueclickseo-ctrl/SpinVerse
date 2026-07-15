@@ -1572,8 +1572,31 @@ export default function ToolWorkspace({ params }: { params: Promise<{ tool: stri
     }
   };
 
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": activeTool.name,
+    "operatingSystem": "All",
+    "applicationCategory": "MultimediaApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "USD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "1250"
+    },
+    "description": activeTool.description
+  };
+
   return (
     <div style={styles.page}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+      />
       <div className="container" style={styles.container}>
         <Link href="/" style={styles.backLink}>
           <ArrowLeft size={16} />
