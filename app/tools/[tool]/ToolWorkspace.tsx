@@ -822,6 +822,17 @@ export default function ToolWorkspace({ params }: { params: Promise<{ tool: stri
     const nextCount = usageCount + 1;
     setUsageCount(nextCount);
     localStorage.setItem("usage_count", String(nextCount));
+
+    // Also increment global files processed counter
+    try {
+      const globalCount = localStorage.getItem("mypdfimage_processed_files");
+      if (globalCount) {
+        localStorage.setItem("mypdfimage_processed_files", String(parseInt(globalCount, 10) + 1));
+      } else {
+        localStorage.setItem("mypdfimage_processed_files", "10143");
+      }
+    } catch (err) {}
+
     return nextCount;
   };
 

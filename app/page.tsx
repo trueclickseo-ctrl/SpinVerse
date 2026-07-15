@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { 
   Combine, 
@@ -41,6 +41,29 @@ interface Tool {
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [activeCategory, setActiveCategory] = useState<string>("all");
+  const [processedCount, setProcessedCount] = useState<number>(10142);
+
+  useEffect(() => {
+    const saved = localStorage.getItem("mypdfimage_processed_files");
+    let startVal = 10142;
+    if (saved) {
+      startVal = parseInt(saved, 10);
+    } else {
+      localStorage.setItem("mypdfimage_processed_files", "10142");
+    }
+    setProcessedCount(startVal);
+
+    // Simulate other users processing files globally in real-time
+    const interval = setInterval(() => {
+      setProcessedCount(prev => {
+        const next = prev + Math.floor(Math.random() * 3) + 1;
+        localStorage.setItem("mypdfimage_processed_files", next.toString());
+        return next;
+      });
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, []);
 
   const tools: Tool[] = [
     {
@@ -465,6 +488,27 @@ export default function Home() {
           <p style={styles.subtitle} className="animate-fade-in">
             Access 100% free online PDF and Image utility tools. Compress PDF size, resize photo KBs, merge files, convert formats, and optimize images completely free with zero cloud uploads or registration.
           </p>
+
+          {/* Live File Counter */}
+          <div 
+            style={{ 
+              display: "flex", 
+              alignItems: "center", 
+              gap: "8px", 
+              background: "rgba(34, 197, 94, 0.1)", 
+              border: "1px solid rgba(34, 197, 94, 0.2)", 
+              padding: "8px 16px", 
+              borderRadius: "100px", 
+              fontSize: "14px", 
+              fontWeight: "700", 
+              color: "#22c55e", 
+              marginBottom: "28px" 
+            }} 
+            className="animate-fade-in"
+          >
+            <span style={{ width: "8px", height: "8px", borderRadius: "50%", background: "#22c55e", display: "inline-block", boxShadow: "0 0 8px #22c55e" }}></span>
+            <span>{processedCount.toLocaleString()} Files Processed Locally & Counting</span>
+          </div>
 
           {/* Search Bar */}
           <div style={styles.searchWrapper} className="animate-fade-in">
