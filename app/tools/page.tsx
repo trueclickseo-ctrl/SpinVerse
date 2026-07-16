@@ -87,14 +87,6 @@ export default function ToolsIndex() {
       popular: true
     },
     {
-      id: "translate-pdf",
-      name: "PDF Translator",
-      description: "Translate PDF page text to 10+ selected languages accurately.",
-      category: "ai",
-      icon: <Languages size={24} />,
-      href: "/tools/translate-pdf"
-    },
-    {
       id: "review-pdf",
       name: "AI Contract Review",
       description: "Analyze contracts automatically to discover risk clauses and warnings.",
