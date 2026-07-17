@@ -46,7 +46,7 @@ export default function LeagueofLegendsChampionsWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Yasuo","Ahri","Lux","Jinx","Lee Sin","Thresh","Garen","Teemo","Ezreal","Zed","Katarina","Akali","Master Yi","Darius","Ashe","Vayne","Kai'Sa","Ekko"]} storageKey="spinverse-video-game-wheels-league-of-legends-champions" />
+          <WheelSpinner initialOptions={["Yasuo","Ahri","Lux","Jinx","Lee Sin","Thresh","Garen","Teemo","Ezreal","Zed","Katarina","Akali","Master Yi","Darius","Ashe","Vayne","Kai'Sa","Ekko"]} storageKey="gamewheelclub-video-game-wheels-league-of-legends-champions" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

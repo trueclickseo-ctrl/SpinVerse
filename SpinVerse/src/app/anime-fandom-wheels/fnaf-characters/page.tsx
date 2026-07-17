@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
-  title: "FNAF Characters Wheel | Spin Random Animatronics | SpinVerse",
+  title: "FNAF Characters Wheel | Spin Random Animatronics | GameWheelClub",
   description: "Spin the FNAF Characters Wheel to pick a random animatronic from Five Nights at Freddy's. Free, interactive, and customizable.",
 };
 
@@ -49,7 +49,7 @@ export default function FnafCharactersWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={animatronics} storageKey="spinverse-fnaf-characters-wheel" />
+          <WheelSpinner initialOptions={animatronics} storageKey="gamewheelclub-fnaf-characters-wheel" />
         </section>
 
         {/* SEO Copy Section */}

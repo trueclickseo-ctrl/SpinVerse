@@ -5,8 +5,8 @@ import Link from "next/link";
 import { Volume2, Music, Waves, Radio, Settings, HelpCircle, AlertCircle } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Audio Sound Effects & Synthesizers | SpinVerse",
-  description: "Learn how procedural audio generation and browser Web Audio API create high-fidelity, interactive, and responsive retro sound effects for SpinVerse tools.",
+  title: "Audio Sound Effects & Synthesizers | GameWheelClub",
+  description: "Learn how procedural audio generation and browser Web Audio API create high-fidelity, interactive, and responsive retro sound effects for GameWheelClub tools.",
 };
 
 export default function SoundEffectsFeature() {
@@ -39,7 +39,7 @@ export default function SoundEffectsFeature() {
             <div>
               <h2 className="text-xl font-black mb-2">Tactile Audio Feedback</h2>
               <p className="text-sm font-medium leading-relaxed">
-                Why does spinning a physical wheel feel so satisfying? It&apos;s the click-click-click of the plastic flapper hitting the metal pins. On SpinVerse, we simulate this tactile physics through real-time procedural synthesizers. No heavy MP3 file downloads—just fast, mathematically generated retro audio signals.
+                Why does spinning a physical wheel feel so satisfying? It&apos;s the click-click-click of the plastic flapper hitting the metal pins. On GameWheelClub, we simulate this tactile physics through real-time procedural synthesizers. No heavy MP3 file downloads—just fast, mathematically generated retro audio signals.
               </p>
             </div>
           </div>
@@ -66,7 +66,7 @@ export default function SoundEffectsFeature() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 font-medium">
             <div className="space-y-4">
               <p className="leading-relaxed">
-                Rather than loading pre-recorded audio files, SpinVerse leverages the browser&apos;s native <strong>Web Audio API</strong> to generate procedural sound effects. This has three massive benefits:
+                Rather than loading pre-recorded audio files, GameWheelClub leverages the browser&apos;s native <strong>Web Audio API</strong> to generate procedural sound effects. This has three massive benefits:
               </p>
               <ul className="list-disc pl-6 space-y-2 text-sm">
                 <li><strong>Zero Network Overhead:</strong> No audio files to fetch, saving mobile bandwidth.</li>
@@ -113,7 +113,7 @@ osc.stop(ctx.currentTime + 0.015);`}
         {/* Section 3: Audio Profiles */}
         <section className="mb-12">
           <h2 className="text-2xl md:text-3xl font-black font-display text-retro-navy dark:text-cream border-b-3 border-retro-navy dark:border-cream pb-2 mb-6">
-            3. SpinVerse Audio Profiles
+            3. GameWheelClub Audio Profiles
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 font-medium">
             <div className="neo-card p-5 bg-white dark:bg-retro-navy border-t-8 border-t-retro-yellow">
@@ -153,7 +153,7 @@ osc.stop(ctx.currentTime + 0.015);`}
             <div>
               <h2 className="text-xl font-black mb-2">Understanding Browser Autoplay Constraints</h2>
               <p className="text-sm font-medium leading-relaxed">
-                Modern browsers (Chrome, Safari, Edge) block audio playback until a user interacts with the page. This prevents unwanted ad sounds. Because of this security constraint, SpinVerse initializes the Web Audio API context only after you click the page or hit the Spin button for the first time.
+                Modern browsers (Chrome, Safari, Edge) block audio playback until a user interacts with the page. This prevents unwanted ad sounds. Because of this security constraint, GameWheelClub initializes the Web Audio API context only after you click the page or hit the Spin button for the first time.
               </p>
             </div>
           </div>

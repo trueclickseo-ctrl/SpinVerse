@@ -81,7 +81,7 @@ export default function Footer() {
 
       <div className="max-w-6xl mx-auto border-t border-retro-navy/10 dark:border-cream/10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
         <p className="text-xs font-semibold opacity-70 text-center md:text-left">
-          &copy; {currentYear} SpinVerse. All rights reserved. Zero-cookie locally computed utility.
+          &copy; {currentYear} GameWheelClub. All rights reserved. Zero-cookie locally computed utility.
         </p>
 
         <div className="flex gap-6 text-xs font-semibold">

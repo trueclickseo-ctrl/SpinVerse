@@ -46,7 +46,7 @@ export default function BoyorGirlOCSpinnerPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Boy","Girl","Non-binary","Genderfluid","Agender"]} storageKey="spinverse-character-creator-boy-or-girl-oc" />
+          <WheelSpinner initialOptions={["Boy","Girl","Non-binary","Genderfluid","Agender"]} storageKey="gamewheelclub-character-creator-boy-or-girl-oc" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

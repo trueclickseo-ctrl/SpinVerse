@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Sparkles, ChevronRight } from "lucide-react";
 
 export const metadata = {
-  title: "Geography & Country Wheel Spinners | SpinVerse",
+  title: "Geography & Country Wheel Spinners | GameWheelClub",
   description: "Spin to select random countries, US states, European nations, or run the 64-country roulette challenge. Great for geography trivia and travel planning.",
 };
 

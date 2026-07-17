@@ -46,7 +46,7 @@ export default function TruthorDareWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Truth: What is your biggest secret?","Dare: Do 10 pushups","Truth: Who is your crush?","Dare: Eat a raw piece of garlic","Truth: Tell a funny lie you told","Dare: Let someone text from your phone"]} storageKey="spinverse-party-games-truth-or-dare" />
+          <WheelSpinner initialOptions={["Truth: What is your biggest secret?","Dare: Do 10 pushups","Truth: Who is your crush?","Dare: Eat a raw piece of garlic","Truth: Tell a funny lie you told","Dare: Let someone text from your phone"]} storageKey="gamewheelclub-party-games-truth-or-dare" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

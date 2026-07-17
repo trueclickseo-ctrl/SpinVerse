@@ -5,8 +5,8 @@ import Link from "next/link";
 import { Palette, Eye, Contrast, LayoutGrid, Heart, Sparkles, HelpCircle } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Custom Colors & Neobrutalist Themes | SpinVerse",
-  description: "Customize the colors, typography, and styling of your decision wheels. Learn how neobrutalist designs, accessible contrast, and CSS palettes power SpinVerse visual tools.",
+  title: "Custom Colors & Neobrutalist Themes | GameWheelClub",
+  description: "Customize the colors, typography, and styling of your decision wheels. Learn how neobrutalist designs, accessible contrast, and CSS palettes power GameWheelClub visual tools.",
 };
 
 export default function CustomColorsFeature() {
@@ -39,7 +39,7 @@ export default function CustomColorsFeature() {
             <div>
               <h2 className="text-xl font-black mb-2">Retro Aesthetics & High Contrast</h2>
               <p className="text-sm font-medium leading-relaxed">
-                SpinVerse is built on a custom <strong>Neobrutalist design system</strong>: flat colors, heavy borders, thick offsets, and vibrant high-contrast shapes. This isn&apos;t just for retro aesthetics—it increases visual clarity and makes it incredibly easy to distinguish wheel slices even from the back of a large classroom or auditorium.
+                GameWheelClub is built on a custom <strong>Neobrutalist design system</strong>: flat colors, heavy borders, thick offsets, and vibrant high-contrast shapes. This isn&apos;t just for retro aesthetics—it increases visual clarity and makes it incredibly easy to distinguish wheel slices even from the back of a large classroom or auditorium.
               </p>
             </div>
           </div>
@@ -61,7 +61,7 @@ export default function CustomColorsFeature() {
         {/* Section 2: Building Color Palettes */}
         <section className="mb-12">
           <h2 className="text-2xl md:text-3xl font-black font-display text-retro-navy dark:text-cream border-b-3 border-retro-navy dark:border-cream pb-2 mb-6">
-            2. The Anatomy of SpinVerse Palette Presets
+            2. The Anatomy of GameWheelClub Palette Presets
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 font-medium">
             <div className="space-y-4">
@@ -163,7 +163,7 @@ export default function CustomColorsFeature() {
                 Will my custom colors save if I close my browser tab?
               </h3>
               <p className="text-sm opacity-90 leading-relaxed pl-7">
-                Yes! Your custom color schemes are saved in your browser&apos;s local storage. The next time you open SpinVerse on this device, your palettes will automatically load.
+                Yes! Your custom color schemes are saved in your browser&apos;s local storage. The next time you open GameWheelClub on this device, your palettes will automatically load.
               </p>
             </div>
             <hr className="border-retro-navy/10 dark:border-cream/10" />

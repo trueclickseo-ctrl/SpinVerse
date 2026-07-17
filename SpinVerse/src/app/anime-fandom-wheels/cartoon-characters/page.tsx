@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
-  title: "Cartoon Characters Wheel | Spin Random Cartoons | SpinVerse",
+  title: "Cartoon Characters Wheel | Spin Random Cartoons | GameWheelClub",
   description: "Spin the Cartoon Characters Wheel to select a random icon from classic and modern animated series. Free, fun, and customizable character picker.",
 };
 
@@ -49,7 +49,7 @@ export default function CartoonCharactersWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={cartoons} storageKey="spinverse-cartoon-characters-wheel" />
+          <WheelSpinner initialOptions={cartoons} storageKey="gamewheelclub-cartoon-characters-wheel" />
         </section>
 
         {/* SEO Copy Section */}

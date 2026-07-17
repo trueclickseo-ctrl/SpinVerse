@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
-  title: "Anime to Watch Wheel | Random Anime Generator | SpinVerse",
+  title: "Anime to Watch Wheel | Random Anime Generator | GameWheelClub",
   description: "Can't decide what anime to watch next? Spin the Anime to Watch Wheel to get a random recommended series instantly. Free and easy decision maker.",
 };
 
@@ -49,7 +49,7 @@ export default function AnimeToWatchWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={animeList} storageKey="spinverse-anime-to-watch-wheel" />
+          <WheelSpinner initialOptions={animeList} storageKey="gamewheelclub-anime-to-watch-wheel" />
         </section>
 
         {/* SEO Copy Section */}

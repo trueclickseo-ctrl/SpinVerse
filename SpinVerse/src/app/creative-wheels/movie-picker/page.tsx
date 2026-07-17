@@ -46,7 +46,7 @@ export default function MoviePickerWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Action Blockbuster","Sci-Fi Thriller","Comedy Night","Romantic Drama","Spooky Horror","Mind-bending Mystery","Historical Epic","Animated Classic","Indie Masterpiece"]} storageKey="spinverse-creative-wheels-movie-picker" />
+          <WheelSpinner initialOptions={["Action Blockbuster","Sci-Fi Thriller","Comedy Night","Romantic Drama","Spooky Horror","Mind-bending Mystery","Historical Epic","Animated Classic","Indie Masterpiece"]} storageKey="gamewheelclub-creative-wheels-movie-picker" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

@@ -61,7 +61,7 @@ export default function CollegeTeamsWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={collegeTeams} storageKey="spinverse-college-teams-wheel" />
+          <WheelSpinner initialOptions={collegeTeams} storageKey="gamewheelclub-college-teams-wheel" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

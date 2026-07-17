@@ -4,7 +4,7 @@ import Link from "next/link";
 import { BookOpen, ChevronRight, Calendar } from "lucide-react";
 
 export const metadata = {
-  title: "SpinVerse Blog | Random Decisions, Games & Education Insights",
+  title: "GameWheelClub Blog | Random Decisions, Games & Education Insights",
   description: "Read our latest articles on random decision-making, interactive classroom game templates, time-boxing techniques, and party icebreaker activities.",
 };
 
@@ -90,7 +90,7 @@ export default function BlogIndexPage() {
         <section className="text-center mb-12">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full neo-border bg-retro-mint text-retro-navy font-bold text-xs uppercase tracking-wider mb-4">
             <BookOpen className="w-4 h-4" />
-            SpinVerse Articles
+            GameWheelClub Articles
           </div>
           <h1 className="text-4xl md:text-5xl font-black font-display tracking-tight text-retro-navy dark:text-cream mb-4">
             Insights, Guides & Productivity Hacks

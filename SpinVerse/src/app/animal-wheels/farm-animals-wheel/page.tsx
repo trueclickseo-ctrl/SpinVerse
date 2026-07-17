@@ -46,7 +46,7 @@ export default function FarmAnimalsWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Dairy Cow","Woolly Sheep","Pink Pig","Galloping Horse","Clucking Chicken","Quacking Duck","Billy Goat","Fluffy Llama","Farm Dog"]} storageKey="spinverse-animal-wheels-farm-animals-wheel" />
+          <WheelSpinner initialOptions={["Dairy Cow","Woolly Sheep","Pink Pig","Galloping Horse","Clucking Chicken","Quacking Duck","Billy Goat","Fluffy Llama","Farm Dog"]} storageKey="gamewheelclub-animal-wheels-farm-animals-wheel" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

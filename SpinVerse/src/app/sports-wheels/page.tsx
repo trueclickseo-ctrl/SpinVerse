@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Trophy, ChevronRight } from "lucide-react";
 
 export const metadata = {
-  title: "Sports Wheel Spinners | SpinVerse",
+  title: "Sports Wheel Spinners | GameWheelClub",
   description: "Browse 12 preloaded sports decision wheels including NFL team pickers, NBA player randomizers, World Cup brackets, and golf clubs.",
 };
 

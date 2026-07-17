@@ -46,7 +46,7 @@ export default function RandomAnimalGeneratorWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Lion","Tiger","Dolphin","Elephant","Kangaroo","Panda","Penguin","Wolf","Grizzly Bear","Chimpanzee","Eagle","Sloth"]} storageKey="spinverse-animal-wheels-random-animal-generator" />
+          <WheelSpinner initialOptions={["Lion","Tiger","Dolphin","Elephant","Kangaroo","Panda","Penguin","Wolf","Grizzly Bear","Chimpanzee","Eagle","Sloth"]} storageKey="gamewheelclub-animal-wheels-random-animal-generator" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

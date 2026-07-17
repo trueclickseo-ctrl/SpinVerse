@@ -31,7 +31,7 @@ export default function YesNoWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={defaultYesNo} storageKey="spinverse-yes-no-wheel" />
+          <WheelSpinner initialOptions={defaultYesNo} storageKey="gamewheelclub-yes-no-wheel" />
         </section>
 
         {/* Copy section */}

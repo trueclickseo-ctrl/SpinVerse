@@ -46,7 +46,7 @@ export default function ThingstoDoWhenBoredWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Read a book chapter","Organize your desk drawer","Learn a 5-minute card trick","Go for a brisk walk","Try drawing a self-portrait","Stretch for 10 minutes","Listen to a new album"]} storageKey="spinverse-party-games-things-to-do-when-bored" />
+          <WheelSpinner initialOptions={["Read a book chapter","Organize your desk drawer","Learn a 5-minute card trick","Go for a brisk walk","Try drawing a self-portrait","Stretch for 10 minutes","Listen to a new album"]} storageKey="gamewheelclub-party-games-things-to-do-when-bored" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

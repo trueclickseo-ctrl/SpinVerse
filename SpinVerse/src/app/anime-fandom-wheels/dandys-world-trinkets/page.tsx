@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
-  title: "Dandy's World Trinkets Wheel | Spin Random Roblox Trinkets | SpinVerse",
+  title: "Dandy's World Trinkets Wheel | Spin Random Roblox Trinkets | GameWheelClub",
   description: "Spin the Dandy's World Trinkets Wheel to randomly choose which accessory or item to equip for your next game run. Free and customizable.",
 };
 
@@ -48,7 +48,7 @@ export default function DandysWorldTrinketsWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={trinkets} storageKey="spinverse-dandys-world-trinkets-wheel" />
+          <WheelSpinner initialOptions={trinkets} storageKey="gamewheelclub-dandys-world-trinkets-wheel" />
         </section>
 
         {/* SEO Copy Section */}

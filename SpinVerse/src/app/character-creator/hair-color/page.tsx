@@ -46,7 +46,7 @@ export default function HairColorWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Brown","Black","Blonde","Ginger","Platinum Blonde","Neon Green","Pastel Pink","Lilac Purple","Cyan Blue","Deep Red"]} storageKey="spinverse-character-creator-hair-color" />
+          <WheelSpinner initialOptions={["Brown","Black","Blonde","Ginger","Platinum Blonde","Neon Green","Pastel Pink","Lilac Purple","Cyan Blue","Deep Red"]} storageKey="gamewheelclub-character-creator-hair-color" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

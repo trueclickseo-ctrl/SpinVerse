@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Utensils, ChevronRight } from "lucide-react";
 
 export const metadata = {
-  title: "Food & Dining Wheel Templates | SpinVerse",
+  title: "Food & Dining Wheel Templates | GameWheelClub",
   description: "Browse free decision wheels for food, lunch choices, dessert spinners, and drink deciders. Settle your dining debates instantly.",
 };
 

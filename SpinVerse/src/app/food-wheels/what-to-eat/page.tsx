@@ -46,7 +46,7 @@ export default function WhattoEatWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Pizza","Tacos & Mexican","Burgers & Fries","Sushi & Japanese","Pasta & Italian","Thai Curry","Indian Masala","Healthy Salad","Sandwiches & Deli"]} storageKey="spinverse-food-wheels-what-to-eat" />
+          <WheelSpinner initialOptions={["Pizza","Tacos & Mexican","Burgers & Fries","Sushi & Japanese","Pasta & Italian","Thai Curry","Indian Masala","Healthy Salad","Sandwiches & Deli"]} storageKey="gamewheelclub-food-wheels-what-to-eat" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

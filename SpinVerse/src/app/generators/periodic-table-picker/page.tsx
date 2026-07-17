@@ -46,7 +46,7 @@ export default function PeriodicTablePickerPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Hydrogen (H)","Helium (He)","Lithium (Li)","Beryllium (Be)","Boron (B)","Carbon (C)","Nitrogen (N)","Oxygen (O)","Fluorine (F)","Neon (Ne)","Sodium (Na)","Magnesium (Mg)"]} storageKey="spinverse-generators-periodic-table-picker" />
+          <WheelSpinner initialOptions={["Hydrogen (H)","Helium (He)","Lithium (Li)","Beryllium (Be)","Boron (B)","Carbon (C)","Nitrogen (N)","Oxygen (O)","Fluorine (F)","Neon (Ne)","Sodium (Na)","Magnesium (Mg)"]} storageKey="gamewheelclub-generators-periodic-table-picker" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

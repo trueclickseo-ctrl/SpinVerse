@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
-  title: "One Piece Devil Fruits Wheel | Spin for Devil Fruits | SpinVerse",
+  title: "One Piece Devil Fruits Wheel | Spin for Devil Fruits | GameWheelClub",
   description: "Spin the One Piece Devil Fruits Wheel to randomly select which Devil Fruit power you would inherit in the world of anime. Free and customizable.",
 };
 
@@ -47,7 +47,7 @@ export default function OnePieceDevilFruitsWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={devilFruits} storageKey="spinverse-one-piece-devil-fruits-wheel" />
+          <WheelSpinner initialOptions={devilFruits} storageKey="gamewheelclub-one-piece-devil-fruits-wheel" />
         </section>
 
         {/* SEO Copy Section */}

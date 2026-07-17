@@ -46,7 +46,7 @@ export default function FastFoodRestaurantsWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["McDonald's","Burger King","Wendy's","Subway","Taco Bell","KFC","Popeyes","Chick-fil-A","Domino's","Pizza Hut","Starbucks","Dunkin'"]} storageKey="spinverse-food-wheels-fast-food-restaurants" />
+          <WheelSpinner initialOptions={["McDonald's","Burger King","Wendy's","Subway","Taco Bell","KFC","Popeyes","Chick-fil-A","Domino's","Pizza Hut","Starbucks","Dunkin'"]} storageKey="gamewheelclub-food-wheels-fast-food-restaurants" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

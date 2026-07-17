@@ -46,7 +46,7 @@ export default function PercentWheelSpinnerPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["10%","20%","30%","40%","50%","60%","70%","80%","95%","100%"]} storageKey="spinverse-generators-percent-wheel" />
+          <WheelSpinner initialOptions={["10%","20%","30%","40%","50%","60%","70%","80%","95%","100%"]} storageKey="gamewheelclub-generators-percent-wheel" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

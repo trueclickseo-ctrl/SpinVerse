@@ -46,7 +46,7 @@ export default function CountryWheelSpinnerPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["United States","Japan","Brazil","Germany","Australia","Canada","India","South Africa","United Kingdom","France","Italy","China","Egypt","Mexico","Russia","Argentina"]} storageKey="spinverse-geography-wheels-country-wheel" />
+          <WheelSpinner initialOptions={["United States","Japan","Brazil","Germany","Australia","Canada","India","South Africa","United Kingdom","France","Italy","China","Egypt","Mexico","Russia","Argentina"]} storageKey="gamewheelclub-geography-wheels-country-wheel" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

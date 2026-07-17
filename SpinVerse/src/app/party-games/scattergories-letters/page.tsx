@@ -46,7 +46,7 @@ export default function ScattergoriesLettersWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","R","S","T","W"]} storageKey="spinverse-party-games-scattergories-letters" />
+          <WheelSpinner initialOptions={["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","R","S","T","W"]} storageKey="gamewheelclub-party-games-scattergories-letters" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

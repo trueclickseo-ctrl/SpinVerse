@@ -63,7 +63,7 @@ export default function FIFAWorldCup2026Page() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={worldCupTeams} storageKey="spinverse-worldcup-2026-wheel" />
+          <WheelSpinner initialOptions={worldCupTeams} storageKey="gamewheelclub-worldcup-2026-wheel" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

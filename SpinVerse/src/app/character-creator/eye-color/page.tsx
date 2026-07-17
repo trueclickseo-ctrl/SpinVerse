@@ -46,7 +46,7 @@ export default function EyeColorWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Ocean Blue","Forest Green","Amber Gold","Crimson Red","Hazel","Dark Brown","Amethyst Violet","Heterochromia (Blue/Green)","Pure Black"]} storageKey="spinverse-character-creator-eye-color" />
+          <WheelSpinner initialOptions={["Ocean Blue","Forest Green","Amber Gold","Crimson Red","Hazel","Dark Brown","Amethyst Violet","Heterochromia (Blue/Green)","Pure Black"]} storageKey="gamewheelclub-character-creator-eye-color" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

@@ -46,7 +46,7 @@ export default function FruitWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Red Apple","Banana","Sweet Strawberry","Juicy Orange","Blueberries","Green Grapes","Watermelon Slice","Fresh Pineapple","Peach","Mango"]} storageKey="spinverse-food-wheels-fruit" />
+          <WheelSpinner initialOptions={["Red Apple","Banana","Sweet Strawberry","Juicy Orange","Blueberries","Green Grapes","Watermelon Slice","Fresh Pineapple","Peach","Mango"]} storageKey="gamewheelclub-food-wheels-fruit" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

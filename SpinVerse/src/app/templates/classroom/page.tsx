@@ -4,7 +4,7 @@ import Link from "next/link";
 import { GraduationCap, ChevronRight } from "lucide-react";
 
 export const metadata = {
-  title: "Classroom Wheel Templates | SpinVerse",
+  title: "Classroom Wheel Templates | GameWheelClub",
   description: "Browse free decision wheels for teachers. Pick random student groups, subjects, rewards, or classroom brain break exercises.",
 };
 

@@ -61,7 +61,7 @@ export default function MLBTeamsWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={mlbTeams} storageKey="spinverse-mlb-teams-wheel" />
+          <WheelSpinner initialOptions={mlbTeams} storageKey="gamewheelclub-mlb-teams-wheel" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

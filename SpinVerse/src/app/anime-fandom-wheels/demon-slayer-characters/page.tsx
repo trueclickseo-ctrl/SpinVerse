@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
-  title: "Demon Slayer Characters Wheel | Spin Random Demon Slayer | SpinVerse",
+  title: "Demon Slayer Characters Wheel | Spin Random Demon Slayer | GameWheelClub",
   description: "Spin the Demon Slayer Characters Wheel to select a random character from Kimetsu no Yaiba. Pick Hashira, Slayers, or Demons instantly.",
 };
 
@@ -49,7 +49,7 @@ export default function DemonSlayerCharactersWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={characters} storageKey="spinverse-demon-slayer-characters-wheel" />
+          <WheelSpinner initialOptions={characters} storageKey="gamewheelclub-demon-slayer-characters-wheel" />
         </section>
 
         {/* SEO Copy Section */}

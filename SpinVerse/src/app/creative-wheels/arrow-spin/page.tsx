@@ -46,7 +46,7 @@ export default function ArrowSpinWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["North ⬆️","Northeast ↗️","East ➡️","Southeast ↘️","South ⬇️","Southwest ↙️","West ⬅️","Northwest ↖️"]} storageKey="spinverse-creative-wheels-arrow-spin" />
+          <WheelSpinner initialOptions={["North ⬆️","Northeast ↗️","East ➡️","Southeast ↘️","South ⬇️","Southwest ↙️","West ⬅️","Northwest ↖️"]} storageKey="gamewheelclub-creative-wheels-arrow-spin" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

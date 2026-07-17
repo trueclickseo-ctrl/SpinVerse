@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
-  title: "Naruto Characters Wheel | Spin Random Naruto Ninja | SpinVerse",
+  title: "Naruto Characters Wheel | Spin Random Naruto Ninja | GameWheelClub",
   description: "Spin the Naruto Characters Wheel to choose a random shinobi from Konoha or the Akatsuki. Free, interactive ninja selector.",
 };
 
@@ -49,7 +49,7 @@ export default function NarutoCharactersWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={characters} storageKey="spinverse-naruto-characters-wheel" />
+          <WheelSpinner initialOptions={characters} storageKey="gamewheelclub-naruto-characters-wheel" />
         </section>
 
         {/* SEO Copy Section */}

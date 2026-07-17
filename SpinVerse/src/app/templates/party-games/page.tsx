@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Dices, ChevronRight } from "lucide-react";
 
 export const metadata = {
-  title: "Party Games Wheel Templates | SpinVerse",
+  title: "Party Games Wheel Templates | GameWheelClub",
   description: "Browse free decision wheels for group games, party challenges, trivia topics, and truth or dare cards. Settle choices instantly.",
 };
 

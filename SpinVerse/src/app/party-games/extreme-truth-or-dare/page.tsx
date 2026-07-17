@@ -46,7 +46,7 @@ export default function ExtremeTruthorDareWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Truth: Have you ever cheated on a test?","Dare: Call a random contact and sing happy birthday","Truth: What is your biggest regret?","Dare: Let the group post a story on your Instagram"]} storageKey="spinverse-party-games-extreme-truth-or-dare" />
+          <WheelSpinner initialOptions={["Truth: Have you ever cheated on a test?","Dare: Call a random contact and sing happy birthday","Truth: What is your biggest regret?","Dare: Let the group post a story on your Instagram"]} storageKey="gamewheelclub-party-games-extreme-truth-or-dare" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

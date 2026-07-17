@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Sparkles, ChevronRight } from "lucide-react";
 
 export const metadata = {
-  title: "Creative & Entertainment Decision Wheels | SpinVerse",
+  title: "Creative & Entertainment Decision Wheels | GameWheelClub",
   description: "Unlock creative inspiration instantly. Spin to choose a movie genre or picker, get random drawing ideas, spin an arrow pointer, or get TBR book prompts.",
 };
 

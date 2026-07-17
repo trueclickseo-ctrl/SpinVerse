@@ -46,7 +46,7 @@ export default function GachaCharacterGeneratorWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Sweet Candy Style","Dark Goth Style","Steampunk Style","Retro Cyberpunk","Pastel Soft Girl","Sporty Chic","Royal Knight"]} storageKey="spinverse-character-creator-gacha-character-generator" />
+          <WheelSpinner initialOptions={["Sweet Candy Style","Dark Goth Style","Steampunk Style","Retro Cyberpunk","Pastel Soft Girl","Sporty Chic","Royal Knight"]} storageKey="gamewheelclub-character-creator-gacha-character-generator" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

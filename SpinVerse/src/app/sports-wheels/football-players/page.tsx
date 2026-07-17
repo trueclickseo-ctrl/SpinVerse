@@ -59,7 +59,7 @@ export default function FootballPlayersWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={soccerPlayers} storageKey="spinverse-football-players-wheel" />
+          <WheelSpinner initialOptions={soccerPlayers} storageKey="gamewheelclub-football-players-wheel" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

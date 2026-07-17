@@ -46,7 +46,7 @@ export default function SongAssociationWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Word: LOVE","Word: FIRE","Word: HEAVEN","Word: DANCE","Word: NIGHT","Word: WORLD","Word: BLUE","Word: HAPPY","Word: CRY"]} storageKey="spinverse-party-games-song-association" />
+          <WheelSpinner initialOptions={["Word: LOVE","Word: FIRE","Word: HEAVEN","Word: DANCE","Word: NIGHT","Word: WORLD","Word: BLUE","Word: HAPPY","Word: CRY"]} storageKey="gamewheelclub-party-games-song-association" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

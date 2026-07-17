@@ -61,7 +61,7 @@ export default function NHLTeamsWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={nhlTeams} storageKey="spinverse-nhl-teams-wheel" />
+          <WheelSpinner initialOptions={nhlTeams} storageKey="gamewheelclub-nhl-teams-wheel" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

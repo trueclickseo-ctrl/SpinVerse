@@ -61,7 +61,7 @@ export default function NFLTeamsWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={nflTeams} storageKey="spinverse-nfl-teams-wheel" />
+          <WheelSpinner initialOptions={nflTeams} storageKey="gamewheelclub-nfl-teams-wheel" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Trash2, Shuffle, CheckCircle, HelpCircle, RefreshCw, Trophy, Users } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Elimination Mode | Exhaustive Choice Selection | SpinVerse",
+  title: "Elimination Mode | Exhaustive Choice Selection | GameWheelClub",
   description: "Learn how Elimination Mode converts standard decision wheels into interactive raffle systems and sequential drawing boards by removing winners on each spin.",
 };
 

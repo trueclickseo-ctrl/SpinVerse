@@ -46,7 +46,7 @@ export default function AlphabetWheelSpinnerPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]} storageKey="spinverse-generators-alphabet-wheel" />
+          <WheelSpinner initialOptions={["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]} storageKey="gamewheelclub-generators-alphabet-wheel" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

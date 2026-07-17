@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Sparkles, ChevronRight } from "lucide-react";
 
 export const metadata = {
-  title: "Food Decider & Dinner Wheel Spinners | SpinVerse",
+  title: "Food Decider & Dinner Wheel Spinners | GameWheelClub",
   description: "Can't agree on lunch, dinner, or snacks? Spin the Food Wheels to pick a random restaurant type, fast food chain, sweet dessert, or healthy snack.",
 };
 

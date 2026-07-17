@@ -11,14 +11,14 @@ export default function AdultTruthorDareWheelPage() {
 
   const [ageVerified, setAgeVerified] = useState(false);
   useEffect(() => {
-    const verified = localStorage.getItem('spinverse-age-verified');
+    const verified = localStorage.getItem('gamewheelclub-age-verified');
     if (verified === 'true') {
       setAgeVerified(true);
     }
   }, []);
 
   const verifyAge = () => {
-    localStorage.setItem('spinverse-age-verified', 'true');
+    localStorage.setItem('gamewheelclub-age-verified', 'true');
     setAgeVerified(true);
   };
 
@@ -72,7 +72,7 @@ export default function AdultTruthorDareWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Truth: What is your secret fantasy?","Dare: Give a sensual massage to the person next to you","Truth: Tell the group your most embarrassing romantic encounter","Dare: Whisper something provocative in someone's ear"]} storageKey="spinverse-party-games-adult-truth-or-dare" />
+          <WheelSpinner initialOptions={["Truth: What is your secret fantasy?","Dare: Give a sensual massage to the person next to you","Truth: Tell the group your most embarrassing romantic encounter","Dare: Whisper something provocative in someone's ear"]} storageKey="gamewheelclub-party-games-adult-truth-or-dare" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

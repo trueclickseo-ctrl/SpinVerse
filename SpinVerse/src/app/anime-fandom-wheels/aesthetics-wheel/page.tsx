@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
-  title: "Aesthetics Wheel | Spin for Fashion & Room Aesthetics | SpinVerse",
+  title: "Aesthetics Wheel | Spin for Fashion & Room Aesthetics | GameWheelClub",
   description: "Spin the Aesthetics Wheel to pick a random style theme like Cottagecore, Vaporwave, or Dark Academia. Free, interactive style picker.",
 };
 
@@ -49,7 +49,7 @@ export default function AestheticsWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={aesthetics} storageKey="spinverse-aesthetics-wheel" />
+          <WheelSpinner initialOptions={aesthetics} storageKey="gamewheelclub-aesthetics-wheel" />
         </section>
 
         {/* SEO Copy Section */}

@@ -46,7 +46,7 @@ export default function StarterPokemonWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Bulbasaur","Charmander","Squirtle","Chikorita","Cyndaquil","Totodile","Treecko","Torchic","Mudkip","Turtwig","Chimchar","Piplup","Snivy","Tepig","Oshawott","Chespin","Fennekin","Froakie","Rowlet","Litten","Popplio","Grookey","Scorbunny","Sobble","Sprigatito","Fuecoco","Quaxly"]} storageKey="spinverse-video-game-wheels-starter-pokemon" />
+          <WheelSpinner initialOptions={["Bulbasaur","Charmander","Squirtle","Chikorita","Cyndaquil","Totodile","Treecko","Torchic","Mudkip","Turtwig","Chimchar","Piplup","Snivy","Tepig","Oshawott","Chespin","Fennekin","Froakie","Rowlet","Litten","Popplio","Grookey","Scorbunny","Sobble","Sprigatito","Fuecoco","Quaxly"]} storageKey="gamewheelclub-video-game-wheels-starter-pokemon" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

@@ -46,7 +46,7 @@ export default function ClothingStyleWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Casual Streetwear","Victorian Gothic","Futuristic Techwear","Traditional Kimono","High School Uniform","Formal Tux/Gown","Cyberpunk Rebel","Fantasy Armor"]} storageKey="spinverse-character-creator-clothing-style" />
+          <WheelSpinner initialOptions={["Casual Streetwear","Victorian Gothic","Futuristic Techwear","Traditional Kimono","High School Uniform","Formal Tux/Gown","Cyberpunk Rebel","Fantasy Armor"]} storageKey="gamewheelclub-character-creator-clothing-style" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

@@ -34,7 +34,7 @@ export default function DecisionWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={defaultChoices} storageKey="spinverse-decision-wheel" />
+          <WheelSpinner initialOptions={defaultChoices} storageKey="gamewheelclub-decision-wheel" />
         </section>
 
         {/* Copy section */}

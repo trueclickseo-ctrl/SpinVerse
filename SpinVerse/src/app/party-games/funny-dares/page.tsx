@@ -46,7 +46,7 @@ export default function FunnyDaresWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Talk in a British accent for 3 rounds","Do your best chicken impression","Balance a spoon on your nose","Act like a drama queen","Talk to a houseplant for 1 minute"]} storageKey="spinverse-party-games-funny-dares" />
+          <WheelSpinner initialOptions={["Talk in a British accent for 3 rounds","Do your best chicken impression","Balance a spoon on your nose","Act like a drama queen","Talk to a houseplant for 1 minute"]} storageKey="gamewheelclub-party-games-funny-dares" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

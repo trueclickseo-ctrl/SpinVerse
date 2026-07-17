@@ -46,7 +46,7 @@ export default function SkinToneWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Fair Peach","Warm Beige","Golden Olive","Rich Bronze","Deep Cocoa","Alabaster White","Pale Gray (Alien/Undead)","Neon Blue"]} storageKey="spinverse-character-creator-skin-tone" />
+          <WheelSpinner initialOptions={["Fair Peach","Warm Beige","Golden Olive","Rich Bronze","Deep Cocoa","Alabaster White","Pale Gray (Alien/Undead)","Neon Blue"]} storageKey="gamewheelclub-character-creator-skin-tone" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

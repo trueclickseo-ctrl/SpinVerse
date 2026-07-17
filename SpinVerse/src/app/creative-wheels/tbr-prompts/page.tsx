@@ -46,7 +46,7 @@ export default function TBRPromptsWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["A book with a blue cover","A book that was recommended by a friend","A book that has been on your shelf over 1 year","A thriller or mystery","A book by a female author","A book with an animal in it"]} storageKey="spinverse-creative-wheels-tbr-prompts" />
+          <WheelSpinner initialOptions={["A book with a blue cover","A book that was recommended by a friend","A book that has been on your shelf over 1 year","A thriller or mystery","A book by a female author","A book with an animal in it"]} storageKey="gamewheelclub-creative-wheels-tbr-prompts" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

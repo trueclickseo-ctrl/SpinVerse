@@ -46,7 +46,7 @@ export default function HairStyleWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Short Pixie","Curly Bob","Long Waves","Side Undercut","Twin Pigtails","High Ponytail","Messy Bun","Spiky Anime","Afro Puff","Dreadlocks"]} storageKey="spinverse-character-creator-hair-style" />
+          <WheelSpinner initialOptions={["Short Pixie","Curly Bob","Long Waves","Side Undercut","Twin Pigtails","High Ponytail","Messy Bun","Spiky Anime","Afro Puff","Dreadlocks"]} storageKey="gamewheelclub-character-creator-hair-style" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

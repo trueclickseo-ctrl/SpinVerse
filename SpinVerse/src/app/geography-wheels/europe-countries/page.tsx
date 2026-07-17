@@ -46,7 +46,7 @@ export default function EuropeCountriesWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["United Kingdom","France","Germany","Italy","Spain","Netherlands","Belgium","Switzerland","Austria","Sweden","Norway","Denmark","Finland","Ireland","Portugal","Greece","Poland","Czechia"]} storageKey="spinverse-geography-wheels-europe-countries" />
+          <WheelSpinner initialOptions={["United Kingdom","France","Germany","Italy","Spain","Netherlands","Belgium","Switzerland","Austria","Sweden","Norway","Denmark","Finland","Ireland","Portugal","Greece","Poland","Czechia"]} storageKey="gamewheelclub-geography-wheels-europe-countries" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

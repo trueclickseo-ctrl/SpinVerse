@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Compass, ChevronRight } from "lucide-react";
 
 export const metadata = {
-  title: "Anime & Fandom Character Wheels | SpinVerse",
+  title: "Anime & Fandom Character Wheels | GameWheelClub",
   description: "Spin 19 free fandom decision wheels. Randomize anime characters, Disney movies, cartoon icons, FNAF animatronics, and One Piece Devil Fruits.",
 };
 

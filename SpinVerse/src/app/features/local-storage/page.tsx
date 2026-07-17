@@ -5,8 +5,8 @@ import Link from "next/link";
 import { Database, ShieldAlert, Cpu, HardDrive, Share2, HelpCircle, WifiOff } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Local Storage & Data Privacy | SpinVerse Features",
-  description: "Learn how SpinVerse uses native browser localStorage to save your wheels, names, and templates offline. Read about our zero-server data privacy architecture.",
+  title: "Local Storage & Data Privacy | GameWheelClub Features",
+  description: "Learn how GameWheelClub uses native browser localStorage to save your wheels, names, and templates offline. Read about our zero-server data privacy architecture.",
 };
 
 export default function LocalStorageFeature() {
@@ -39,7 +39,7 @@ export default function LocalStorageFeature() {
             <div>
               <h2 className="text-xl font-black mb-2">Zero Database, Absolute Privacy</h2>
               <p className="text-sm font-medium leading-relaxed">
-                Most web applications send your inputs to a remote server, where they are indexed and stored in a database. At SpinVerse, we built our tools with a <strong>privacy-first, client-only architecture</strong>. All items, custom weights, visual colors, and presets stay on your device, stored securely in your browser&apos;s sandbox.
+                Most web applications send your inputs to a remote server, where they are indexed and stored in a database. At GameWheelClub, we built our tools with a <strong>privacy-first, client-only architecture</strong>. All items, custom weights, visual colors, and presets stay on your device, stored securely in your browser&apos;s sandbox.
               </p>
             </div>
           </div>
@@ -80,7 +80,7 @@ export default function LocalStorageFeature() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 font-medium">
             <div className="space-y-4">
               <p className="leading-relaxed">
-                When you make adjustments to a wheel or change its colors, SpinVerse automatically serializes the layout parameters into a string and saves it via the browser&apos;s <strong>localStorage API</strong>.
+                When you make adjustments to a wheel or change its colors, GameWheelClub automatically serializes the layout parameters into a string and saves it via the browser&apos;s <strong>localStorage API</strong>.
               </p>
               <p className="leading-relaxed text-sm">
                 Since browser local storage only supports raw string values, we use JSON serialization:
@@ -90,7 +90,7 @@ export default function LocalStorageFeature() {
                   <strong>Serialization:</strong> Convert state objects (arrays of names, weight integers, hex color arrays) into a single string using <code>JSON.stringify()</code>.
                 </li>
                 <li>
-                  <strong>Commit:</strong> Save the string using unique keys like <code>spinverse_saved_wheels</code>.
+                  <strong>Commit:</strong> Save the string using unique keys like <code>gamewheelclub_saved_wheels</code>.
                 </li>
                 <li>
                   <strong>Deserialization:</strong> Retrieve the string using <code>localStorage.getItem()</code> and convert it back into active state objects using <code>JSON.parse()</code>.
@@ -114,7 +114,7 @@ const wheelState = {
 
 try {
   const serialized = JSON.stringify(wheelState);
-  localStorage.setItem("spinverse_wheel", serialized);
+  localStorage.setItem("gamewheelclub_wheel", serialized);
 } catch (e) {
   console.error("Storage error:", e);
 }`}
@@ -138,7 +138,7 @@ try {
                 <WifiOff className="w-5 h-5 text-retro-orange" /> 1. App Caching
               </h3>
               <p className="text-sm opacity-90 leading-relaxed">
-                When you load SpinVerse with an active internet connection, our assets (HTML, CSS, JS, fonts) are cached in the browser cache storage. The app can then run entirely without a network connection.
+                When you load GameWheelClub with an active internet connection, our assets (HTML, CSS, JS, fonts) are cached in the browser cache storage. The app can then run entirely without a network connection.
               </p>
             </div>
 
@@ -194,7 +194,7 @@ try {
                 Is my data secure from other websites?
               </h3>
               <p className="text-sm opacity-90 leading-relaxed pl-7">
-                Yes. Browsers enforce the <strong>Same-Origin Policy</strong>. This security model guarantees that only JavaScript executing on the <code>spinverse.com</code> domain can read or write data saved under the SpinVerse key. No other website can access your configurations.
+                Yes. Browsers enforce the <strong>Same-Origin Policy</strong>. This security model guarantees that only JavaScript executing on the <code>gamewheelclub.com</code> domain can read or write data saved under the GameWheelClub key. No other website can access your configurations.
               </p>
             </div>
           </div>

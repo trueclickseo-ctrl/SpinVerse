@@ -46,7 +46,7 @@ export default function FortniteChallengesWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Pistols Only Win","No Shield Challenge","First Weapon You See Only","No Building Match (Zero Build)","Land at Named Locations Only","Pacifist Run (No Kills)","Mythic Weapons Only","Skybase Challenge"]} storageKey="spinverse-video-game-wheels-fortnite-challenges" />
+          <WheelSpinner initialOptions={["Pistols Only Win","No Shield Challenge","First Weapon You See Only","No Building Match (Zero Build)","Land at Named Locations Only","Pacifist Run (No Kills)","Mythic Weapons Only","Skybase Challenge"]} storageKey="gamewheelclub-video-game-wheels-fortnite-challenges" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

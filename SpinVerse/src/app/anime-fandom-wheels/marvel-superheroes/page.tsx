@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
-  title: "Marvel Superheroes Wheel | Spin Random Avengers | SpinVerse",
+  title: "Marvel Superheroes Wheel | Spin Random Avengers | GameWheelClub",
   description: "Spin the Marvel Superheroes Wheel to randomly choose a hero from the Marvel Universe. Free, customizable, and perfect for comic and MCU fans.",
 };
 
@@ -49,7 +49,7 @@ export default function MarvelSuperheroesWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={heroes} storageKey="spinverse-marvel-superheroes-wheel" />
+          <WheelSpinner initialOptions={heroes} storageKey="gamewheelclub-marvel-superheroes-wheel" />
         </section>
 
         {/* SEO Copy Section */}

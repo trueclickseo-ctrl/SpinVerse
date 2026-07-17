@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
-  title: "JJK Cursed Techniques Wheel | Spin for Cursed Techniques | SpinVerse",
+  title: "JJK Cursed Techniques Wheel | Spin for Cursed Techniques | GameWheelClub",
   description: "Spin the JJK Cursed Techniques Wheel to randomly select which Jujutsu Kaisen power you would inherit. Free, customizable, and fun.",
 };
 
@@ -48,7 +48,7 @@ export default function JjkCursedTechniquesWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={techniques} storageKey="spinverse-jjk-cursed-techniques-wheel" />
+          <WheelSpinner initialOptions={techniques} storageKey="gamewheelclub-jjk-cursed-techniques-wheel" />
         </section>
 
         {/* SEO Copy Section */}

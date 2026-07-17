@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Sparkles, ChevronRight } from "lucide-react";
 
 export const metadata = {
-  title: "Random Generator Wheels & Math Pickers | SpinVerse",
+  title: "Random Generator Wheels & Math Pickers | GameWheelClub",
   description: "Spin pure mathematical and utility decision generators. Includes the customizable number wheel, hex color generator, percent wheel, and alphabet spinner.",
 };
 

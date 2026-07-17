@@ -46,7 +46,7 @@ export default function PunishmentWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Buy snacks for everyone","Do the dishes","Sing a song chosen by the group","Post an embarrassing selfie","Do 20 jumping jacks","Speak only in whispers next turn"]} storageKey="spinverse-party-games-punishment-wheel" />
+          <WheelSpinner initialOptions={["Buy snacks for everyone","Do the dishes","Sing a song chosen by the group","Post an embarrassing selfie","Do 20 jumping jacks","Speak only in whispers next turn"]} storageKey="gamewheelclub-party-games-punishment-wheel" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

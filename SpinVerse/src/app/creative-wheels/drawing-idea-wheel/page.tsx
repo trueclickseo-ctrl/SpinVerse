@@ -46,7 +46,7 @@ export default function DrawingIdeaWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["A cat wearing a wizard hat","A futuristic cyberpunk cafe","A treehouse floating in space","A medieval knight riding a turtle","A cute dragon baking cookies","A steampunk robot flower shop"]} storageKey="spinverse-creative-wheels-drawing-idea-wheel" />
+          <WheelSpinner initialOptions={["A cat wearing a wizard hat","A futuristic cyberpunk cafe","A treehouse floating in space","A medieval knight riding a turtle","A cute dragon baking cookies","A steampunk robot flower shop"]} storageKey="gamewheelclub-creative-wheels-drawing-idea-wheel" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

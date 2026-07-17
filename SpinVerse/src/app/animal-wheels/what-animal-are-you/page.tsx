@@ -46,7 +46,7 @@ export default function WhatAnimalAreYouWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["A wise Owl","A loyal Golden Retriever","A playful Cat","A lazy Panda","A soaring Eagle","A fast Cheetah","A calm Sea Turtle","A busy Bee","A brave Lion"]} storageKey="spinverse-animal-wheels-what-animal-are-you" />
+          <WheelSpinner initialOptions={["A wise Owl","A loyal Golden Retriever","A playful Cat","A lazy Panda","A soaring Eagle","A fast Cheetah","A calm Sea Turtle","A busy Bee","A brave Lion"]} storageKey="gamewheelclub-animal-wheels-what-animal-are-you" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

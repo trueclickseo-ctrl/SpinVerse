@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
-  title: "Jujutsu Kaisen Characters Wheel | Spin Random JJK Sorcerer | SpinVerse",
+  title: "Jujutsu Kaisen Characters Wheel | Spin Random JJK Sorcerer | GameWheelClub",
   description: "Spin the Jujutsu Kaisen Characters Wheel to randomly select sorcerers, cursed spirits, or student characters. Free and interactive JJK randomizer.",
 };
 
@@ -48,7 +48,7 @@ export default function JujutsuKaisenCharactersWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={characters} storageKey="spinverse-jjk-characters-wheel" />
+          <WheelSpinner initialOptions={characters} storageKey="gamewheelclub-jjk-characters-wheel" />
         </section>
 
         {/* SEO Copy Section */}

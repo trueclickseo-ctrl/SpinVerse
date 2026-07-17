@@ -46,7 +46,7 @@ export default function RainbowSixOperatorsWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Sledge","Thatcher","Ash","Thermite","Twitch","Montagne","Glaz","Fuze","Blitz","IQ","Buck","Blackbeard","Capitao","Hibana","Smoke","Mute","Castle","Pulse","Doc","Rook","Kapkan","Tachanka","Jager","Bandit","Frost","Valkyrie","Caveira","Echo"]} storageKey="spinverse-video-game-wheels-rainbow-six-operators" />
+          <WheelSpinner initialOptions={["Sledge","Thatcher","Ash","Thermite","Twitch","Montagne","Glaz","Fuze","Blitz","IQ","Buck","Blackbeard","Capitao","Hibana","Smoke","Mute","Castle","Pulse","Doc","Rook","Kapkan","Tachanka","Jager","Bandit","Frost","Valkyrie","Caveira","Echo"]} storageKey="gamewheelclub-video-game-wheels-rainbow-six-operators" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

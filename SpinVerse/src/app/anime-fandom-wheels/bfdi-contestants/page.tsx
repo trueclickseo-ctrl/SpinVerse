@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
-  title: "BFDI Contestants Wheel | Battle for Dream Island Randomizer | SpinVerse",
+  title: "BFDI Contestants Wheel | Battle for Dream Island Randomizer | GameWheelClub",
   description: "Spin the BFDI Contestants Wheel to randomly select characters from Battle for Dream Island. Free, interactive, and customizable.",
 };
 
@@ -51,7 +51,7 @@ export default function BfdiContestantsWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={contestants} storageKey="spinverse-bfdi-contestants-wheel" />
+          <WheelSpinner initialOptions={contestants} storageKey="gamewheelclub-bfdi-contestants-wheel" />
         </section>
 
         {/* SEO Copy Section */}

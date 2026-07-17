@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
-  title: "Anime Characters Wheel | Spin Random Anime Characters | SpinVerse",
+  title: "Anime Characters Wheel | Spin Random Anime Characters | GameWheelClub",
   description: "Spin the free Anime Characters Wheel to randomize popular heroes and villains from top series like DBZ, Naruto, One Piece, MHA, and Demon Slayer.",
 };
 
@@ -49,7 +49,7 @@ export default function AnimeCharactersWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={characters} storageKey="spinverse-anime-characters-wheel" />
+          <WheelSpinner initialOptions={characters} storageKey="gamewheelclub-anime-characters-wheel" />
         </section>
 
         {/* SEO Copy Section */}

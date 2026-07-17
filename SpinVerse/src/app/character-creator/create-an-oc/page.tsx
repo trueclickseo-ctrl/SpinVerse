@@ -46,7 +46,7 @@ export default function CreateanOCWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Warrior","Mage","Thief","Cleric","Elf","Dwarf","Orc","Demon","Angel","Cyborg","Alien"]} storageKey="spinverse-character-creator-create-an-oc" />
+          <WheelSpinner initialOptions={["Warrior","Mage","Thief","Cleric","Elf","Dwarf","Orc","Demon","Angel","Cyborg","Alien"]} storageKey="gamewheelclub-character-creator-create-an-oc" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

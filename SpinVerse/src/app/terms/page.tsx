@@ -19,7 +19,7 @@ export default function TermsPage() {
             1. Acceptance of Terms
           </h2>
           <p className="leading-relaxed">
-            By accessing and using SpinVerse, you agree to comply with and be bound by these terms. If you do not agree to these terms, please do not use our services.
+            By accessing and using GameWheelClub, you agree to comply with and be bound by these terms. If you do not agree to these terms, please do not use our services.
           </p>
 
           <h2 className="text-2xl font-black font-display border-b-3 border-retro-navy dark:border-cream pb-2 pt-4">

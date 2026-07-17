@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Sparkles, ChevronRight } from "lucide-react";
 
 export const metadata = {
-  title: "Animal & Nature Randomizer Wheels | SpinVerse",
+  title: "Animal & Nature Randomizer Wheels | GameWheelClub",
   description: "Select random animals for games, education, and drawings. Spin the animal wheels to discover what animal you are or pick farm creatures.",
 };
 

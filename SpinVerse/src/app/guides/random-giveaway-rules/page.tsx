@@ -140,7 +140,7 @@ export default function RandomGiveawayRules() {
                   <li><strong>Eligibility requirements:</strong> State who can enter (e.g., minimum age, geographic restrictions).</li>
                   <li><strong>Entry periods:</strong> Clearly list the exact start and end dates/times, including timezone.</li>
                   <li><strong>Description of prizes:</strong> Describe the prize and its approximate retail value.</li>
-                  <li><strong>How winner is selected:</strong> State that the winner will be drawn at random (e.g., using SpinVerse).</li>
+                  <li><strong>How winner is selected:</strong> State that the winner will be drawn at random (e.g., using GameWheelClub).</li>
                   <li><strong>How winners are notified:</strong> Detail the method of contact (e.g., email, DM) and how long they have to claim their prize before a redraw occurs.</li>
                 </ol>
                 <p>

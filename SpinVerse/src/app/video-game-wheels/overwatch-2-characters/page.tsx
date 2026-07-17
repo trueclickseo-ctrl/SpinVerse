@@ -46,7 +46,7 @@ export default function OverwatchCharactersWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Tracer","Reaper","Genji","Hanzo","Cassidy","Soldier: 76","Widowmaker","Pharah","Mei","Bastion","Junkrat","Sombra","Doomfist","D.Va","Winston","Reinhardt","Roadhog","Zarya","Mercy","Lucio","Ana","Kiriko","Lifeweaver","Illari","Juno"]} storageKey="spinverse-video-game-wheels-overwatch-2-characters" />
+          <WheelSpinner initialOptions={["Tracer","Reaper","Genji","Hanzo","Cassidy","Soldier: 76","Widowmaker","Pharah","Mei","Bastion","Junkrat","Sombra","Doomfist","D.Va","Winston","Reinhardt","Roadhog","Zarya","Mercy","Lucio","Ana","Kiriko","Lifeweaver","Illari","Juno"]} storageKey="gamewheelclub-video-game-wheels-overwatch-2-characters" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

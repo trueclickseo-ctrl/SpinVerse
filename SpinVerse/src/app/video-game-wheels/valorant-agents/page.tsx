@@ -46,7 +46,7 @@ export default function ValorantAgentsWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Jett","Raze","Phoenix","Reyna","Yoru","Neon","Sage","Cypher","Killjoy","Chamber","Fade","Sova","Breach","Omen","Viper","Astra","Harbor","Gekko","Deadlock","Iso","Clove"]} storageKey="spinverse-video-game-wheels-valorant-agents" />
+          <WheelSpinner initialOptions={["Jett","Raze","Phoenix","Reyna","Yoru","Neon","Sage","Cypher","Killjoy","Chamber","Fade","Sova","Breach","Omen","Viper","Astra","Harbor","Gekko","Deadlock","Iso","Clove"]} storageKey="gamewheelclub-video-game-wheels-valorant-agents" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

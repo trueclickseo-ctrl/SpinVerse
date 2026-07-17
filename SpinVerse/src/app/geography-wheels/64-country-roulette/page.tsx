@@ -46,7 +46,7 @@ export default function CountryRoulettePage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["USA","Canada","Mexico","Brazil","Argentina","UK","France","Germany","Italy","Spain","Russia","Egypt","South Africa","Nigeria","Kenya","India","China","Japan","South Korea","Australia","New Zealand","Saudi Arabia","Turkey","Greece","Sweden","Norway","Netherlands","Switzerland","Poland","Ukraine","Vietnam","Thailand","Indonesia","Philippines","Colombia","Peru","Chile","Venezuela","Morocco","Ghana","Ethiopia","Pakistan","Bangladesh","Iran","Iraq","Israel","Singapore","Malaysia","New Zealand","Portugal","Austria","Denmark","Finland","Ireland","Belgium","Czechia","Hungary","Romania","Cuba","Jamaica","Costa Rica","Panama","Ecuador","Bolivia"]} storageKey="spinverse-geography-wheels-64-country-roulette" />
+          <WheelSpinner initialOptions={["USA","Canada","Mexico","Brazil","Argentina","UK","France","Germany","Italy","Spain","Russia","Egypt","South Africa","Nigeria","Kenya","India","China","Japan","South Korea","Australia","New Zealand","Saudi Arabia","Turkey","Greece","Sweden","Norway","Netherlands","Switzerland","Poland","Ukraine","Vietnam","Thailand","Indonesia","Philippines","Colombia","Peru","Chile","Venezuela","Morocco","Ghana","Ethiopia","Pakistan","Bangladesh","Iran","Iraq","Israel","Singapore","Malaysia","New Zealand","Portugal","Austria","Denmark","Finland","Ireland","Belgium","Czechia","Hungary","Romania","Cuba","Jamaica","Costa Rica","Panama","Ecuador","Bolivia"]} storageKey="gamewheelclub-geography-wheels-64-country-roulette" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

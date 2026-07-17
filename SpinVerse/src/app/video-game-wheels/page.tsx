@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Sparkles, ChevronRight } from "lucide-react";
 
 export const metadata = {
-  title: "Video Game Randomizer Wheels | SpinVerse",
+  title: "Video Game Randomizer Wheels | GameWheelClub",
   description: "Spin to pick gaming setups, agents, champions, types, challenges, and play styles. Covers Valorant, LoL, Pokémon, Roblox, and Fortnite.",
 };
 

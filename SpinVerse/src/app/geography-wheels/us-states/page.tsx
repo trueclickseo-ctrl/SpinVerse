@@ -46,7 +46,7 @@ export default function USStatesWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["California","Texas","Florida","New York","Illinois","Pennsylvania","Ohio","Georgia","North Carolina","Michigan","Washington","Arizona","Massachusetts","Virginia","Colorado","Tennessee"]} storageKey="spinverse-geography-wheels-us-states" />
+          <WheelSpinner initialOptions={["California","Texas","Florida","New York","Illinois","Pennsylvania","Ohio","Georgia","North Carolina","Michigan","Washington","Arizona","Massachusetts","Virginia","Colorado","Tennessee"]} storageKey="gamewheelclub-geography-wheels-us-states" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

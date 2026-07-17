@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
-  title: "Dandy's World Character Wheel | Spin Random Toons | SpinVerse",
+  title: "Dandy's World Character Wheel | Spin Random Toons | GameWheelClub",
   description: "Spin the Dandy's World Wheel to select a random toon character. Free, customizable, and perfect for Roblox players.",
 };
 
@@ -49,7 +49,7 @@ export default function DandysWorldWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={characters} storageKey="spinverse-dandys-world-wheel" />
+          <WheelSpinner initialOptions={characters} storageKey="gamewheelclub-dandys-world-wheel" />
         </section>
 
         {/* SEO Copy Section */}

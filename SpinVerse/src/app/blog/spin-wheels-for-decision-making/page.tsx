@@ -19,19 +19,19 @@ export default function SpinWheelsForDecisionMaking() {
     "datePublished": "2026-07-17T03:00:00+05:00",
     "author": {
       "@type": "Organization",
-      "name": "SpinVerse"
+      "name": "GameWheelClub"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "SpinVerse",
+      "name": "GameWheelClub",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://spinverse.com/logo.png"
+        "url": "https://gamewheelclub.com/logo.png"
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://spinverse.com/blog/spin-wheels-for-decision-making"
+      "@id": "https://gamewheelclub.com/blog/spin-wheels-for-decision-making"
     }
   };
 

@@ -59,7 +59,7 @@ export default function BestTeamsWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={legendaryTeams} storageKey="spinverse-best-teams-wheel" />
+          <WheelSpinner initialOptions={legendaryTeams} storageKey="gamewheelclub-best-teams-wheel" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

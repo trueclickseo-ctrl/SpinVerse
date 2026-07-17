@@ -46,7 +46,7 @@ export default function SmashBrosCharactersWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Mario","Donkey Kong","Link","Samus","Yoshi","Kirby","Fox","Pikachu","Luigi","Ness","Captain Falcon","Jigglypuff","Peach","Bowser","Zelda","Sheik","Marth","Mewtwo","Sonic","Steve","Sephiroth","Sora"]} storageKey="spinverse-video-game-wheels-smash-bros-characters" />
+          <WheelSpinner initialOptions={["Mario","Donkey Kong","Link","Samus","Yoshi","Kirby","Fox","Pikachu","Luigi","Ness","Captain Falcon","Jigglypuff","Peach","Bowser","Zelda","Sheik","Marth","Mewtwo","Sonic","Steve","Sephiroth","Sora"]} storageKey="gamewheelclub-video-game-wheels-smash-bros-characters" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

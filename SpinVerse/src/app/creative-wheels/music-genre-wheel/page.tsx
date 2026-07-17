@@ -46,7 +46,7 @@ export default function MusicGenreWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Synthwave / Lo-Fi","Classic Rock & Roll","90s Hip Hop","Neo-Classical Piano","Modern Pop","Smooth Jazz","Indie Folk & Acoustic","Heavy Metal / Hard Rock","Electronic Dance Music"]} storageKey="spinverse-creative-wheels-music-genre-wheel" />
+          <WheelSpinner initialOptions={["Synthwave / Lo-Fi","Classic Rock & Roll","90s Hip Hop","Neo-Classical Piano","Modern Pop","Smooth Jazz","Indie Folk & Acoustic","Heavy Metal / Hard Rock","Electronic Dance Music"]} storageKey="gamewheelclub-creative-wheels-music-genre-wheel" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

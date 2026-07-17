@@ -46,7 +46,7 @@ export default function QuestionsWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["What is your superpower?","If you won $1M, what is the first purchase?","Where is your dream vacation?","What is your biggest fear?","Who inspires you the most?","What is your favorite childhood memory?"]} storageKey="spinverse-party-games-questions-wheel" />
+          <WheelSpinner initialOptions={["What is your superpower?","If you won $1M, what is the first purchase?","Where is your dream vacation?","What is your biggest fear?","Who inspires you the most?","What is your favorite childhood memory?"]} storageKey="gamewheelclub-party-games-questions-wheel" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

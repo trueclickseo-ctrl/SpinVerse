@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Briefcase, Sparkles } from "lucide-react";
 
 export const metadata = {
-  title: "Random Decision Tools for Business | SpinVerse",
+  title: "Random Decision Tools for Business | GameWheelClub",
   description: "Improve meetings and team interactions with randomizers and timers. Settle presenter order, draft tasks, and host team icebreakers.",
 };
 

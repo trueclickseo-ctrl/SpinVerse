@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
-  title: "Dress To Impress Theme Wheel | DTI Randomizer | SpinVerse",
+  title: "Dress To Impress Theme Wheel | DTI Randomizer | GameWheelClub",
   description: "Spin the Dress To Impress (DTI) Theme Wheel to randomly select a fashion style or outfit challenge for your next Roblox runway. Free and interactive.",
 };
 
@@ -49,7 +49,7 @@ export default function DtiThemeWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={themes} storageKey="spinverse-dti-theme-wheel" />
+          <WheelSpinner initialOptions={themes} storageKey="gamewheelclub-dti-theme-wheel" />
         </section>
 
         {/* SEO Copy Section */}

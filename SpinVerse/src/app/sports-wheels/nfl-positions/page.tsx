@@ -61,7 +61,7 @@ export default function NFLPositionsWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={nflPositions} storageKey="spinverse-nfl-positions-wheel" />
+          <WheelSpinner initialOptions={nflPositions} storageKey="gamewheelclub-nfl-positions-wheel" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

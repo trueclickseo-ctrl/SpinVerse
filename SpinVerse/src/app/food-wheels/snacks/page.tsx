@@ -46,7 +46,7 @@ export default function SnacksWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Potato Chips","Chocolate Bar","Apple Slices with Peanut Butter","Mixed Nuts","Greek Yogurt","Popcorn","Pretzels","Cheese Stick","Granola Bar"]} storageKey="spinverse-food-wheels-snacks" />
+          <WheelSpinner initialOptions={["Potato Chips","Chocolate Bar","Apple Slices with Peanut Butter","Mixed Nuts","Greek Yogurt","Popcorn","Pretzels","Cheese Stick","Granola Bar"]} storageKey="gamewheelclub-food-wheels-snacks" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

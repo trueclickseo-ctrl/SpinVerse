@@ -42,14 +42,14 @@ export default function Home() {
                 A <strong>random decision wheel</strong> (often called a spinner wheel) is a simple, visual, and unbiased way to make a choice. It eliminates bias and overthinking by leaving the final outcome to pure, randomized mathematical probability.
               </p>
               <p>
-                Whether you need to pick a name, decide a yes-no question, or choose between multiple ideas, the SpinVerse decision wheel is built to be fast, simple, and responsive on all devices.
+                Whether you need to pick a name, decide a yes-no question, or choose between multiple ideas, the GameWheelClub decision wheel is built to be fast, simple, and responsive on all devices.
               </p>
             </div>
           </div>
 
           <div>
             <h2 className="text-2xl md:text-3xl font-black font-display mb-4">
-              How SpinVerse Works
+              How GameWheelClub Works
             </h2>
             <div className="space-y-4">
               <div className="flex gap-4">
@@ -115,7 +115,7 @@ export default function Home() {
                 Can I use this for names and giveaways?
               </h3>
               <p className="text-sm opacity-95">
-                Absolutely! Many teachers, content creators, and event coordinators use SpinVerse to draw random names or giveaway winners.
+                Absolutely! Many teachers, content creators, and event coordinators use GameWheelClub to draw random names or giveaway winners.
               </p>
             </div>
           </div>

@@ -5,8 +5,8 @@ import Link from "next/link";
 import { Edit3, FileSpreadsheet, List, Clipboard, ArrowRight, ShieldCheck, HelpCircle } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Bulk Edit & List Import | SpinVerse Tools",
-  description: "Learn how to import and edit thousands of items instantly. Explore the string parsing, CSV compatibility, and list sanitation engines driving SpinVerse's Bulk Editor.",
+  title: "Bulk Edit & List Import | GameWheelClub Tools",
+  description: "Learn how to import and edit thousands of items instantly. Explore the string parsing, CSV compatibility, and list sanitation engines driving GameWheelClub's Bulk Editor.",
 };
 
 export default function BulkEditFeature() {
@@ -28,7 +28,7 @@ export default function BulkEditFeature() {
             Bulk Edit & List Importing: Managing Large Datasets
           </h1>
           <p className="text-lg md:text-xl font-medium opacity-90 max-w-3xl leading-relaxed">
-            Manual input is slow. Discover how SpinVerse lets you paste, format, and sanitize hundreds of list entries from Excel, Google Sheets, or plain text in a single second.
+            Manual input is slow. Discover how GameWheelClub lets you paste, format, and sanitize hundreds of list entries from Excel, Google Sheets, or plain text in a single second.
           </p>
         </div>
 
@@ -54,7 +54,7 @@ export default function BulkEditFeature() {
             Many decision wheel websites force users to add options one by one, clicking a button, waiting for the UI to update, and then typing the next entry. For single choices like &quot;Red or Blue,&quot; this works. But when handling massive class rosters, prize lists, or product categories, it is a tedious bottleneck.
           </p>
           <p className="font-medium leading-relaxed">
-            SpinVerse incorporates a full-featured text area bulk editor inside the <Link href="/wheel-of-names" className="font-bold underline decoration-retro-blue hover:text-retro-blue">Wheel of Names</Link> and the <Link href="/decision-wheel" className="font-bold underline decoration-retro-mint hover:text-retro-mint">Decision Wheel</Link>. Users can open a simple box, copy a column from a spreadsheet program, paste it, and watch the wheel rebuild instantly.
+            GameWheelClub incorporates a full-featured text area bulk editor inside the <Link href="/wheel-of-names" className="font-bold underline decoration-retro-blue hover:text-retro-blue">Wheel of Names</Link> and the <Link href="/decision-wheel" className="font-bold underline decoration-retro-mint hover:text-retro-mint">Decision Wheel</Link>. Users can open a simple box, copy a column from a spreadsheet program, paste it, and watch the wheel rebuild instantly.
           </p>
         </section>
 
@@ -130,10 +130,10 @@ export default function BulkEditFeature() {
 
             <div className="neo-card p-5 bg-white dark:bg-retro-navy">
               <h3 className="font-black text-lg mb-2 flex items-center gap-2">
-                <ArrowRight className="w-5 h-5 text-retro-blue" /> 2. Paste in SpinVerse
+                <ArrowRight className="w-5 h-5 text-retro-blue" /> 2. Paste in GameWheelClub
               </h3>
               <p className="text-sm opacity-90 leading-relaxed">
-                Navigate to the SpinVerse Bulk Editor drawer. Click inside the text area, delete any placeholder entries, and paste your roster using <code>Ctrl+V</code>.
+                Navigate to the GameWheelClub Bulk Editor drawer. Click inside the text area, delete any placeholder entries, and paste your roster using <code>Ctrl+V</code>.
               </p>
             </div>
 

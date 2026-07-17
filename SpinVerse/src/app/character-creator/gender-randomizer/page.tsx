@@ -46,7 +46,7 @@ export default function GenderRandomizerWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Male","Female","Non-binary","Androgynous","Genderqueer","Demiboy","Demigirl"]} storageKey="spinverse-character-creator-gender-randomizer" />
+          <WheelSpinner initialOptions={["Male","Female","Non-binary","Androgynous","Genderqueer","Demiboy","Demigirl"]} storageKey="gamewheelclub-character-creator-gender-randomizer" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

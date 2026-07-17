@@ -46,7 +46,7 @@ export default function NationalityGeneratorWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["American","Japanese","British","Brazilian","French","German","Australian","Canadian","South Korean","Indian","Mexican","Spanish"]} storageKey="spinverse-character-creator-nationality-generator" />
+          <WheelSpinner initialOptions={["American","Japanese","British","Brazilian","French","German","Australian","Canadian","South Korean","Indian","Mexican","Spanish"]} storageKey="gamewheelclub-character-creator-nationality-generator" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

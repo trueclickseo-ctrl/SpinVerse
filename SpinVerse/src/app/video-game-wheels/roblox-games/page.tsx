@@ -46,7 +46,7 @@ export default function RobloxGamesWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Adopt Me!","Blox Fruits","Brookhaven RP","Tower of Hell","Murder Mystery 2","Piggy","Royale High","Arsenal","Pet Simulator 99","BedWars"]} storageKey="spinverse-video-game-wheels-roblox-games" />
+          <WheelSpinner initialOptions={["Adopt Me!","Blox Fruits","Brookhaven RP","Tower of Hell","Murder Mystery 2","Piggy","Royale High","Arsenal","Pet Simulator 99","BedWars"]} storageKey="gamewheelclub-video-game-wheels-roblox-games" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

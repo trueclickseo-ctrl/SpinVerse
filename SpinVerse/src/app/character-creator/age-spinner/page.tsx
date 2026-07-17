@@ -46,7 +46,7 @@ export default function AgeSpinnerWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Child (5-10)","Pre-teen (11-12)","Teenager (13-17)","Young Adult (18-25)","Adult (26-45)","Middle Aged (46-60)","Elderly (60+)"]} storageKey="spinverse-character-creator-age-spinner" />
+          <WheelSpinner initialOptions={["Child (5-10)","Pre-teen (11-12)","Teenager (13-17)","Young Adult (18-25)","Adult (26-45)","Middle Aged (46-60)","Elderly (60+)"]} storageKey="gamewheelclub-character-creator-age-spinner" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

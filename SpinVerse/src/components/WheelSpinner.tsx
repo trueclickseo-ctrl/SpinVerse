@@ -22,7 +22,7 @@ const PASTEL_COLORS = [
 
 export default function WheelSpinner({
   initialOptions = ["Option 1", "Option 2", "Option 3", "Option 4", "Option 5"],
-  storageKey = "spinverse-main-wheel",
+  storageKey = "gamewheelclub-main-wheel",
 }: WheelSpinnerProps) {
   const [options, setOptions] = useState<string[]>([]);
   const [newOption, setNewOption] = useState("");

@@ -46,7 +46,7 @@ export default function ColorWheelSpinnerPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Red (#EF4444)","Blue (#3B82F6)","Green (#10B981)","Yellow (#F59E0B)","Purple (#8B5CF6)","Pink (#EC4899)","Orange (#F97316)","Teal (#14B8A6)"]} storageKey="spinverse-generators-color-wheel" />
+          <WheelSpinner initialOptions={["Red (#EF4444)","Blue (#3B82F6)","Green (#10B981)","Yellow (#F59E0B)","Purple (#8B5CF6)","Pink (#EC4899)","Orange (#F97316)","Teal (#14B8A6)"]} storageKey="gamewheelclub-generators-color-wheel" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

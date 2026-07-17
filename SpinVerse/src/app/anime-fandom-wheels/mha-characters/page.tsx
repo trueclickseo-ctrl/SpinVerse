@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
-  title: "MHA Characters Wheel | Spin Random My Hero Academia Characters | SpinVerse",
+  title: "MHA Characters Wheel | Spin Random My Hero Academia Characters | GameWheelClub",
   description: "Spin the MHA Characters Wheel to randomly select heroes and villains from My Hero Academia. Free, customizable, and fast character picker.",
 };
 
@@ -49,7 +49,7 @@ export default function MhaCharactersWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={characters} storageKey="spinverse-mha-characters-wheel" />
+          <WheelSpinner initialOptions={characters} storageKey="gamewheelclub-mha-characters-wheel" />
         </section>
 
         {/* SEO Copy Section */}

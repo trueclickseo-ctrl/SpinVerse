@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
-  title: "Dandy's World OC Generator Wheel | Spin OC Archetypes | SpinVerse",
+  title: "Dandy's World OC Generator Wheel | Spin OC Archetypes | GameWheelClub",
   description: "Spin the Dandy's World OC Generator Wheel to randomly determine design parameters, roles, and stats for your custom original toon character.",
 };
 
@@ -49,7 +49,7 @@ export default function DandysWorldOcGeneratorWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={archetypes} storageKey="spinverse-dandys-world-oc-wheel" />
+          <WheelSpinner initialOptions={archetypes} storageKey="gamewheelclub-dandys-world-oc-wheel" />
         </section>
 
         {/* SEO Copy Section */}

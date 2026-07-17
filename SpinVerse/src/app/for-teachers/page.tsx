@@ -4,7 +4,7 @@ import Link from "next/link";
 import { GraduationCap, Sparkles } from "lucide-react";
 
 export const metadata = {
-  title: "Random Decision Tools for Teachers | SpinVerse",
+  title: "Random Decision Tools for Teachers | GameWheelClub",
   description: "Discover free spin wheels and timer tools for classroom management. Choose random students, pick subjects, and award privileges fairly.",
 };
 
@@ -29,7 +29,7 @@ export default function ForTeachersPage() {
 
         <section className="neo-card p-8 bg-white dark:bg-retro-navy space-y-6">
           <h2 className="text-2xl font-black font-display flex items-center gap-2">
-            <Sparkles className="text-retro-orange w-6 h-6" /> Why Teachers Love SpinVerse
+            <Sparkles className="text-retro-orange w-6 h-6" /> Why Teachers Love GameWheelClub
           </h2>
           <div className="prose dark:prose-invert font-medium text-base space-y-4 leading-relaxed">
             <p>

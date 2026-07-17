@@ -19,7 +19,7 @@ export default function PrivacyPage() {
             1. Information We Collect
           </h2>
           <p className="leading-relaxed">
-            SpinVerse operates entirely client-side. We do not run databases or tracking algorithms that collect or store your name, email address, custom options, or results. All custom data entered into our wheels is persisted directly in your browser&apos;s local storage.
+            GameWheelClub operates entirely client-side. We do not run databases or tracking algorithms that collect or store your name, email address, custom options, or results. All custom data entered into our wheels is persisted directly in your browser&apos;s local storage.
           </p>
 
           <h2 className="text-2xl font-black font-display border-b-3 border-retro-navy dark:border-cream pb-2 pt-4">

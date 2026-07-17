@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Sparkles, ChevronRight } from "lucide-react";
 
 export const metadata = {
-  title: "Character Creator & OC Wheel Generators | SpinVerse",
+  title: "Character Creator & OC Wheel Generators | GameWheelClub",
   description: "Design random characters, OCs, and avatars instantly. Spin for hairstyles, outfits, eyes, genders, skin tones, and gacha ideas.",
 };
 

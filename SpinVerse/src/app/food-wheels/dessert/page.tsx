@@ -46,7 +46,7 @@ export default function DessertWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Chocolate Cake","Vanilla Ice Cream","Warm Apple Pie","Fresh Baked Chocolate Chip Cookies","Strawberry Cheesecake","Glazed Donuts","Crème Brûlée","Brownie Sundae"]} storageKey="spinverse-food-wheels-dessert" />
+          <WheelSpinner initialOptions={["Chocolate Cake","Vanilla Ice Cream","Warm Apple Pie","Fresh Baked Chocolate Chip Cookies","Strawberry Cheesecake","Glazed Donuts","Crème Brûlée","Brownie Sundae"]} storageKey="gamewheelclub-food-wheels-dessert" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

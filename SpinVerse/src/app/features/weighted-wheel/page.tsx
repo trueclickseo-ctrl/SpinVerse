@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Scale, Compass, Percent, Calculator, BookOpen, AlertCircle, HelpCircle } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Weighted Decision Wheels | Probability-Based Spinners | SpinVerse",
+  title: "Weighted Decision Wheels | Probability-Based Spinners | GameWheelClub",
   description: "Explore the mathematics and logic of weighted decision wheels. Learn how probability distribution, cumulative weights, and roulette selection power custom choice wheels.",
 };
 
@@ -28,7 +28,7 @@ export default function WeightedWheelFeature() {
             Weighted Decision Wheels: The Math & Logic of Custom Probability
           </h1>
           <p className="text-lg md:text-xl font-medium opacity-90 max-w-3xl leading-relaxed">
-            Not all choices are created equal. Discover how SpinVerse lets you assign specific weight values to items, shifting the balance of chance with rigorous mathematical precision.
+            Not all choices are created equal. Discover how GameWheelClub lets you assign specific weight values to items, shifting the balance of chance with rigorous mathematical precision.
           </p>
         </div>
 

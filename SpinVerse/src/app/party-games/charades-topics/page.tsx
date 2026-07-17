@@ -46,7 +46,7 @@ export default function CharadesTopicsWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Mimic a T-Rex eating","Pretend to be a glitching robot","Act out playing golf","Mimic cooking a hot dog","Pretend you are walking on ice","Act like an astronaut floating"]} storageKey="spinverse-party-games-charades-topics" />
+          <WheelSpinner initialOptions={["Mimic a T-Rex eating","Pretend to be a glitching robot","Act out playing golf","Mimic cooking a hot dog","Pretend you are walking on ice","Act like an astronaut floating"]} storageKey="gamewheelclub-party-games-charades-topics" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

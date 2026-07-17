@@ -59,7 +59,7 @@ export default function NBAPlayersWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={nbaPlayers} storageKey="spinverse-nba-players-wheel" />
+          <WheelSpinner initialOptions={nbaPlayers} storageKey="gamewheelclub-nba-players-wheel" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

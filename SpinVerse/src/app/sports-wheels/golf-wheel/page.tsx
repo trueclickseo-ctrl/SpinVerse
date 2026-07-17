@@ -62,7 +62,7 @@ export default function GolfWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={golfClubs} storageKey="spinverse-golf-wheel" />
+          <WheelSpinner initialOptions={golfClubs} storageKey="gamewheelclub-golf-wheel" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

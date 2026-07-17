@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
-  title: "Disney Movie Generator Wheel | Spin a Random Movie | SpinVerse",
+  title: "Disney Movie Generator Wheel | Spin a Random Movie | GameWheelClub",
   description: "Spin the Disney Movie Generator Wheel to randomly select a classic or modern Disney/Pixar movie for your next family movie night. Free and interactive.",
 };
 
@@ -49,7 +49,7 @@ export default function DisneyMovieGeneratorWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={movies} storageKey="spinverse-disney-movie-wheel" />
+          <WheelSpinner initialOptions={movies} storageKey="gamewheelclub-disney-movie-wheel" />
         </section>
 
         {/* SEO Copy Section */}

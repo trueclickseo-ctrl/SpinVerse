@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Sparkles, Calendar } from "lucide-react";
 
 export const metadata = {
-  title: "Random Choice Tools for Events & Parties | SpinVerse",
+  title: "Random Choice Tools for Events & Parties | GameWheelClub",
   description: "Host memorable parties, giveaways, and social events. Settle group games, spin for raffle winners, and choose trivia topics instantly.",
 };
 

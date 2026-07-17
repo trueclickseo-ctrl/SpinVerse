@@ -4,8 +4,8 @@ import Link from "next/link";
 import { Check, X, ArrowUpRight, HelpCircle, Award, Sparkles, Shield, Eye, ShieldCheck, Zap } from "lucide-react";
 
 export const metadata = {
-  title: "SpinVerse vs. Wheel of Names vs. Wheel Decider vs. Tiny Decisions | Best Random Picker Tools",
-  description: "Read our comprehensive, unbiased comparison of the top random decision picker tools: SpinVerse, Wheel of Names, Wheel Decider, and Tiny Decisions. Discover the best spinner for your classroom, event, or everyday choices.",
+  title: "GameWheelClub vs. Wheel of Names vs. Wheel Decider vs. Tiny Decisions | Best Random Picker Tools",
+  description: "Read our comprehensive, unbiased comparison of the top random decision picker tools: GameWheelClub, Wheel of Names, Wheel Decider, and Tiny Decisions. Discover the best spinner for your classroom, event, or everyday choices.",
 };
 
 export default function BestRandomPickerToolsPage() {
@@ -14,7 +14,7 @@ export default function BestRandomPickerToolsPage() {
     "@graph": [
       {
         "@type": "SoftwareApplication",
-        "name": "SpinVerse Decision Wheel",
+        "name": "GameWheelClub Decision Wheel",
         "operatingSystem": "All",
         "applicationCategory": "UtilitiesApplication",
         "offers": {
@@ -32,7 +32,7 @@ export default function BestRandomPickerToolsPage() {
             "name": "Which random picker tool is completely ad-free?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "SpinVerse is 100% ad-free, prioritizing user privacy and a seamless experience. Other web-based tools like Wheel of Names and Wheel Decider rely on third-party display advertisements."
+              "text": "GameWheelClub is 100% ad-free, prioritizing user privacy and a seamless experience. Other web-based tools like Wheel of Names and Wheel Decider rely on third-party display advertisements."
             }
           },
           {
@@ -40,7 +40,7 @@ export default function BestRandomPickerToolsPage() {
             "name": "Do random picker wheels store my data?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "SpinVerse stores your custom choice lists entirely in your local browser storage, ensuring absolute privacy. Unlike some web apps, your entries never travel to a remote database server."
+              "text": "GameWheelClub stores your custom choice lists entirely in your local browser storage, ensuring absolute privacy. Unlike some web apps, your entries never travel to a remote database server."
             }
           },
           {
@@ -48,7 +48,7 @@ export default function BestRandomPickerToolsPage() {
             "name": "Can I use these spinner wheels on my mobile phone?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes, SpinVerse is fully responsive and mobile-optimized. For a native app, Tiny Decisions is a good offline choice, though it requires installation."
+              "text": "Yes, GameWheelClub is fully responsive and mobile-optimized. For a native app, Tiny Decisions is a good offline choice, though it requires installation."
             }
           }
         ]
@@ -77,7 +77,7 @@ export default function BestRandomPickerToolsPage() {
             Best Random Picker Tools compared
           </h1>
           <p className="text-lg md:text-xl max-w-3xl mx-auto font-medium opacity-90 leading-relaxed">
-            Stuck between SpinVerse, Wheel of Names, Wheel Decider, and Tiny Decisions? We analyze features, privacy, styling, and UX to find the ultimate choice wheel for you.
+            Stuck between GameWheelClub, Wheel of Names, Wheel Decider, and Tiny Decisions? We analyze features, privacy, styling, and UX to find the ultimate choice wheel for you.
           </p>
         </section>
 
@@ -91,7 +91,7 @@ export default function BestRandomPickerToolsPage() {
               <thead>
                 <tr className="border-b-3 border-retro-navy dark:border-cream">
                   <th className="p-4 font-black text-lg">Feature</th>
-                  <th className="p-4 font-black text-lg bg-retro-yellow/20 text-retro-navy dark:text-retro-yellow">SpinVerse</th>
+                  <th className="p-4 font-black text-lg bg-retro-yellow/20 text-retro-navy dark:text-retro-yellow">GameWheelClub</th>
                   <th className="p-4 font-black text-lg opacity-85">Wheel of Names</th>
                   <th className="p-4 font-black text-lg opacity-85">Wheel Decider</th>
                   <th className="p-4 font-black text-lg opacity-85">Tiny Decisions</th>
@@ -160,32 +160,32 @@ export default function BestRandomPickerToolsPage() {
                 This cognitive load has driven the immense popularity of <strong>random picker tools</strong>. Simple web-based applications, often designed with a colorful spinning wheel interface, provide an instantaneous, objective, and entertaining escape hatch from decision paralysis. By handing the agency over to a mathematical pseudorandom number generator (PRNG), users can bypass overthinking completely.
               </p>
               <p>
-                However, not all random decision spinners are created equal. The market ranges from decade-old legacy websites cluttered with flashing display advertisements to native mobile apps locked behind paywalls. In this guide, we perform an in-depth breakdown of the four leading random picker tools available today: <strong>SpinVerse</strong>, <strong>Wheel of Names</strong>, <strong>Wheel Decider</strong>, and <strong>Tiny Decisions</strong>. We will evaluate them across user interface design, customizability, privacy, mobile support, and total cost of ownership.
+                However, not all random decision spinners are created equal. The market ranges from decade-old legacy websites cluttered with flashing display advertisements to native mobile apps locked behind paywalls. In this guide, we perform an in-depth breakdown of the four leading random picker tools available today: <strong>GameWheelClub</strong>, <strong>Wheel of Names</strong>, <strong>Wheel Decider</strong>, and <strong>Tiny Decisions</strong>. We will evaluate them across user interface design, customizability, privacy, mobile support, and total cost of ownership.
               </p>
             </div>
           </div>
 
-          {/* Breakdown 1: SpinVerse */}
+          {/* Breakdown 1: GameWheelClub */}
           <div className="neo-card p-8 bg-retro-mint/10 dark:bg-retro-navy border-retro-navy dark:border-cream">
             <div className="flex items-center gap-3 mb-4">
               <span className="px-3 py-1 bg-retro-mint text-retro-navy font-bold text-xs uppercase neo-border">Winner: Modern UX</span>
-              <h3 className="text-2xl font-black font-display">1. SpinVerse — The Neobrutalist Contender</h3>
+              <h3 className="text-2xl font-black font-display">1. GameWheelClub — The Neobrutalist Contender</h3>
             </div>
             <div className="prose dark:prose-invert font-medium text-base space-y-4">
               <p>
-                SpinVerse is a modern, high-performance web utility built specifically to challenge the ad-heavy layout of traditional spinner sites. Characterized by its signature <strong>neobrutalist styling</strong>—bold black borders, high-contrast flat colors, retro drop shadows, and expressive display typography—SpinVerse treats utility tools as pieces of interactive art.
+                GameWheelClub is a modern, high-performance web utility built specifically to challenge the ad-heavy layout of traditional spinner sites. Characterized by its signature <strong>neobrutalist styling</strong>—bold black borders, high-contrast flat colors, retro drop shadows, and expressive display typography—GameWheelClub treats utility tools as pieces of interactive art.
               </p>
               <p>
                 <strong>Key Features & Advantages:</strong>
               </p>
               <ul className="list-disc pl-5 space-y-2">
-                <li><strong>100% Ad-Free Experience:</strong> Unlike traditional tools that embed multiple banner ads and cookie consent walls, SpinVerse offers a completely distraction-free workspace. This makes it ideal for screensharing during professional webinars or live streaming.</li>
-                <li><strong>Local Storage Privacy:</strong> SpinVerse values your privacy. It stores your custom lists and settings directly on your device using the browser&apos;s localStorage API. Your options are never uploaded to a remote database server.</li>
-                <li><strong>Rich Sensory Feedback:</strong> SpinVerse includes ticking sound effects that speed up and slow down dynamically with the wheel, followed by a rewarding burst of confetti when a choice is made.</li>
+                <li><strong>100% Ad-Free Experience:</strong> Unlike traditional tools that embed multiple banner ads and cookie consent walls, GameWheelClub offers a completely distraction-free workspace. This makes it ideal for screensharing during professional webinars or live streaming.</li>
+                <li><strong>Local Storage Privacy:</strong> GameWheelClub values your privacy. It stores your custom lists and settings directly on your device using the browser&apos;s localStorage API. Your options are never uploaded to a remote database server.</li>
+                <li><strong>Rich Sensory Feedback:</strong> GameWheelClub includes ticking sound effects that speed up and slow down dynamically with the wheel, followed by a rewarding burst of confetti when a choice is made.</li>
                 <li><strong>Fully Responsive Layout:</strong> It is designed to look stunning and operate smoothly across desktop monitors, tablets, and smartphones alike.</li>
               </ul>
               <p>
-                SpinVerse makes it easy to switch tools with direct links to its core engines. For instance, teachers and raffle hosts can use the specialized <Link href="/wheel-of-names" className="text-retro-blue underline font-bold">Random Name Picker Wheel</Link> or resolve quick binary options with the dedicated <Link href="/yes-no-wheel" className="text-retro-orange underline font-bold">Yes or No Decision Wheel</Link>.
+                GameWheelClub makes it easy to switch tools with direct links to its core engines. For instance, teachers and raffle hosts can use the specialized <Link href="/wheel-of-names" className="text-retro-blue underline font-bold">Random Name Picker Wheel</Link> or resolve quick binary options with the dedicated <Link href="/yes-no-wheel" className="text-retro-orange underline font-bold">Yes or No Decision Wheel</Link>.
               </p>
             </div>
           </div>
@@ -254,7 +254,7 @@ export default function BestRandomPickerToolsPage() {
               <div className="p-6 neo-card bg-retro-mint/20 text-retro-navy">
                 <h4 className="font-extrabold text-lg mb-2">Best for Educators & Streams</h4>
                 <p className="text-sm">
-                  <strong>SpinVerse</strong> takes the crown. Its modern, ad-free interface makes it ideal for projecting in classrooms or live streaming without awkward third-party ads appearing.
+                  <strong>GameWheelClub</strong> takes the crown. Its modern, ad-free interface makes it ideal for projecting in classrooms or live streaming without awkward third-party ads appearing.
                 </p>
               </div>
               <div className="p-6 neo-card bg-retro-yellow/20 text-retro-navy">
@@ -286,7 +286,7 @@ export default function BestRandomPickerToolsPage() {
               href="/decision-wheel"
               className="px-6 py-3 neo-btn bg-retro-yellow text-retro-navy hover:scale-105 transition-transform text-center font-bold inline-flex items-center justify-center gap-2"
             >
-              Start SpinVerse <ArrowUpRight className="w-5 h-5" />
+              Start GameWheelClub <ArrowUpRight className="w-5 h-5" />
             </Link>
           </div>
         </section>
@@ -310,10 +310,10 @@ export default function BestRandomPickerToolsPage() {
             <div className="space-y-2">
               <h4 className="font-extrabold text-lg flex items-start gap-2">
                 <ShieldCheck className="w-5 h-5 text-retro-mint flex-shrink-0 mt-1" />
-                Is SpinVerse safe to use in classrooms?
+                Is GameWheelClub safe to use in classrooms?
               </h4>
               <p className="text-sm opacity-90 leading-relaxed">
-                Absolutely. Because SpinVerse is completely ad-free, teachers do not have to worry about inappropriate ads loading. Also, because all data stays inside your browser, student names are never uploaded or shared with advertisers.
+                Absolutely. Because GameWheelClub is completely ad-free, teachers do not have to worry about inappropriate ads loading. Also, because all data stays inside your browser, student names are never uploaded or shared with advertisers.
               </p>
             </div>
 
@@ -323,17 +323,17 @@ export default function BestRandomPickerToolsPage() {
                 Do I need to sign up for an account to use these features?
               </h4>
               <p className="text-sm opacity-90 leading-relaxed">
-                No account is required to use SpinVerse or Wheel Decider. You can customize options, adjust configurations, and spin wheels immediately upon landing. Wheel of Names requires an account only if you wish to save configurations to their cloud database.
+                No account is required to use GameWheelClub or Wheel Decider. You can customize options, adjust configurations, and spin wheels immediately upon landing. Wheel of Names requires an account only if you wish to save configurations to their cloud database.
               </p>
             </div>
 
             <div className="space-y-2">
               <h4 className="font-extrabold text-lg flex items-start gap-2">
                 <Shield className="w-5 h-5 text-retro-orange flex-shrink-0 mt-1" />
-                How do I save my custom wheels in SpinVerse?
+                How do I save my custom wheels in GameWheelClub?
               </h4>
               <p className="text-sm opacity-90 leading-relaxed">
-                SpinVerse automatically saves your active wheel configuration to your browser&apos;s localStorage. When you return or refresh the page, your options will be preserved exactly as you left them, completely offline.
+                GameWheelClub automatically saves your active wheel configuration to your browser&apos;s localStorage. When you return or refresh the page, your options will be preserved exactly as you left them, completely offline.
               </p>
             </div>
           </div>

@@ -31,7 +31,7 @@ export default function WheelOfNamesPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={defaultNames} storageKey="spinverse-names-wheel" />
+          <WheelSpinner initialOptions={defaultNames} storageKey="gamewheelclub-names-wheel" />
         </section>
 
         {/* Copy section */}

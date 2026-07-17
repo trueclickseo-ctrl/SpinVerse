@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Compass, Sparkles } from "lucide-react";
 
 export const metadata = {
-  title: "One Piece Characters Wheel | Spin Random Pirates | SpinVerse",
+  title: "One Piece Characters Wheel | Spin Random Pirates | GameWheelClub",
   description: "Spin the One Piece Characters Wheel to select a random pirate from the Straw Hat crew, Yonko, or Marines. Free, fast, and customizable.",
 };
 
@@ -51,7 +51,7 @@ export default function OnePieceCharactersWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={characters} storageKey="spinverse-one-piece-characters-wheel" />
+          <WheelSpinner initialOptions={characters} storageKey="gamewheelclub-one-piece-characters-wheel" />
         </section>
 
         {/* SEO Copy Section */}

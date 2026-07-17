@@ -61,7 +61,7 @@ export default function NBATeamsWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={nbaTeams} storageKey="spinverse-nba-teams-wheel" />
+          <WheelSpinner initialOptions={nbaTeams} storageKey="gamewheelclub-nba-teams-wheel" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

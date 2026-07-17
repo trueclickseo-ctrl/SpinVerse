@@ -75,7 +75,7 @@ export default function NumberWheelSpinnerPage() {
                 <span className="text-xs font-bold opacity-75">Range: {minVal}-{maxVal}</span>
               </div>
             </div>
-            <WheelSpinner key={numOptions.join(',')} initialOptions={numOptions} storageKey="spinverse-number-wheel-range" />
+            <WheelSpinner key={numOptions.join(',')} initialOptions={numOptions} storageKey="gamewheelclub-number-wheel-range" />
 
         </section>
 

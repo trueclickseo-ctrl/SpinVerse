@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Sparkles, ChevronRight } from "lucide-react";
 
 export const metadata = {
-  title: "Party & Social Game Wheels | SpinVerse",
+  title: "Party & Social Game Wheels | GameWheelClub",
   description: "Interactive wheels for social events, sleepovers, and parties. Spin for Truth or Dare questions, Spin the Bottle, Charades, and funny challenges.",
 };
 

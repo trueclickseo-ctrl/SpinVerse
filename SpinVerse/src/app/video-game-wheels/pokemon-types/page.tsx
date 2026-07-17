@@ -46,7 +46,7 @@ export default function PokemonTypesWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Normal","Fire","Water","Grass","Electric","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Steel","Dark","Fairy"]} storageKey="spinverse-video-game-wheels-pokemon-types" />
+          <WheelSpinner initialOptions={["Normal","Fire","Water","Grass","Electric","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Steel","Dark","Fairy"]} storageKey="gamewheelclub-video-game-wheels-pokemon-types" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}

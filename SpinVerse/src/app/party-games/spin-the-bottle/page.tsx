@@ -46,7 +46,7 @@ export default function SpintheBottleWheelPage() {
         </section>
 
         <section className="mb-16">
-          <WheelSpinner initialOptions={["Player A","Player B","Player C","Player D","Player E","Player F"]} storageKey="spinverse-party-games-spin-the-bottle" />
+          <WheelSpinner initialOptions={["Player A","Player B","Player C","Player D","Player E","Player F"]} storageKey="gamewheelclub-party-games-spin-the-bottle" />
         </section>
 
         {/* Neobrutalist Info Cards & SEO Content */}
