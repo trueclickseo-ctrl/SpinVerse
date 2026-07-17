@@ -10,12 +10,50 @@ export default function ContactPage() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (name && email && message) {
-      setSubmitted(true);
+    if (!name || !email || !message) return;
+
+    setIsSubmitting(true);
+    try {
+      // Submit to Web3Forms (a free form-to-email service for static sites)
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
+        body: JSON.stringify({
+          // To receive emails directly, register a free key at https://web3forms.com
+          // and replace the access_key below.
+          access_key: "YOUR_ACCESS_KEY_HERE",
+          name,
+          email,
+          message,
+          subject: "New Message from GameWheelClub Contact Form"
+        })
+      });
+
+      const data = await response.json();
+      if (data.success) {
+        setSubmitted(true);
+      } else {
+        // Fallback to mailto redirect if submission fails or key is unconfigured
+        triggerMailtoFallback();
+      }
+    } catch (err) {
+      triggerMailtoFallback();
+    } finally {
+      setIsSubmitting(false);
     }
+  };
+
+  const triggerMailtoFallback = () => {
+    const mailtoUrl = `mailto:trueclickseo@gmail.com?subject=GameWheelClub%20Contact&body=Name:%20${encodeURIComponent(name)}%0D%0AEmail:%20${encodeURIComponent(email)}%0D%0AMessage:%20${encodeURIComponent(message)}`;
+    window.location.href = mailtoUrl;
+    setSubmitted(true);
   };
 
   return (
@@ -103,10 +141,11 @@ export default function ContactPage() {
 
               <button
                 type="submit"
-                className="w-full py-3 neo-btn bg-retro-orange text-white dark:text-retro-navy font-bold flex items-center justify-center gap-2 hover:scale-102 transition-transform"
+                disabled={isSubmitting}
+                className="w-full py-3 neo-btn bg-retro-orange text-white dark:text-retro-navy font-bold flex items-center justify-center gap-2 hover:scale-102 transition-transform disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 <Send className="w-5 h-5" />
-                Send Message
+                {isSubmitting ? "Sending..." : "Send Message"}
               </button>
             </form>
           )}
