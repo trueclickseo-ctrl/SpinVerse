@@ -34,9 +34,13 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 w-full neo-border border-t-0 border-x-0 bg-cream dark:bg-retro-navy py-4 px-6 md:px-12 flex justify-between items-center transition-colors">
-      <a href="/" className="flex items-center gap-2 font-display text-2xl font-black tracking-tight text-retro-navy dark:text-cream hover:opacity-90">
-        <Disc className="w-8 h-8 text-retro-orange animate-spin-slow" style={{ animationDuration: '8s' }} />
-        <span>Spin<span className="text-retro-orange">Verse</span></span>
+      <a href="/" className="flex items-center gap-2.5 font-display text-2xl font-black tracking-tight text-retro-navy dark:text-cream hover:opacity-90">
+        <img 
+          src="/logo.jpg" 
+          alt="GameWheelClub Logo" 
+          className="w-9 h-9 rounded-md border-2 border-retro-navy dark:border-cream object-cover shadow-sm"
+        />
+        <span>Game<span className="text-retro-orange">Wheel</span>Club</span>
       </a>
 
       {/* Desktop Menu */}

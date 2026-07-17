@@ -1,6 +1,3 @@
-import Link from "next/link";
-import { Disc } from "lucide-react";
-
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -9,9 +6,13 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
         {/* Branding */}
         <div className="flex flex-col gap-4">
-          <div className="flex items-center gap-2 font-display text-2xl font-black">
-            <Disc className="w-7 h-7 text-retro-orange animate-spin-slow" style={{ animationDuration: '12s' }} />
-            <span>Spin<span className="text-retro-orange">Verse</span></span>
+          <div className="flex items-center gap-2.5 font-display text-2xl font-black">
+            <img 
+              src="/logo.jpg" 
+              alt="GameWheelClub Logo" 
+              className="w-8 h-8 rounded border-2 border-retro-navy dark:border-cream object-cover"
+            />
+            <span>Game<span className="text-retro-orange">Wheel</span>Club</span>
           </div>
           <p className="text-sm font-semibold max-w-sm opacity-80 leading-relaxed">
             Fast, accessible, and neobrutalist-designed decision wheels, randomizers, and productivity timers. Settle choices instantly.
@@ -24,15 +25,15 @@ export default function Footer() {
             Use Cases
           </h4>
           <div className="flex flex-col gap-2 text-sm font-bold">
-            <Link href="/for-teachers" className="hover:text-retro-orange transition-colors">
+            <a href="/for-teachers" className="hover:text-retro-orange transition-colors">
               For Teachers
-            </Link>
-            <Link href="/for-business" className="hover:text-retro-orange transition-colors">
+            </a>
+            <a href="/for-business" className="hover:text-retro-orange transition-colors">
               For Business
-            </Link>
-            <Link href="/for-events" className="hover:text-retro-orange transition-colors">
+            </a>
+            <a href="/for-events" className="hover:text-retro-orange transition-colors">
               For Events
-            </Link>
+            </a>
           </div>
         </div>
 
@@ -42,18 +43,18 @@ export default function Footer() {
             Guides & Info
           </h4>
           <div className="flex flex-col gap-2 text-sm font-bold">
-            <Link href="/guides/how-random-wheels-work" className="hover:text-retro-orange transition-colors">
+            <a href="/guides/how-random-wheels-work" className="hover:text-retro-orange transition-colors">
               How Wheels Work
-            </Link>
-            <Link href="/guides/spin-wheel-psychology" className="hover:text-retro-orange transition-colors">
+            </a>
+            <a href="/guides/spin-wheel-psychology" className="hover:text-retro-orange transition-colors">
               Wheel Psychology
-            </Link>
-            <Link href="/features/weighted-wheel" className="hover:text-retro-orange transition-colors">
+            </a>
+            <a href="/features/weighted-wheel" className="hover:text-retro-orange transition-colors">
               Weighted Wheels
-            </Link>
-            <Link href="/features/elimination-mode" className="hover:text-retro-orange transition-colors">
+            </a>
+            <a href="/features/elimination-mode" className="hover:text-retro-orange transition-colors">
               Elimination Mode
-            </Link>
+            </a>
           </div>
         </div>
 
@@ -63,18 +64,18 @@ export default function Footer() {
             Recent Blog
           </h4>
           <div className="flex flex-col gap-2 text-sm font-bold">
-            <Link href="/blog/spin-wheels-for-decision-making" className="hover:text-retro-orange transition-colors">
+            <a href="/blog/spin-wheels-for-decision-making" className="hover:text-retro-orange transition-colors">
               Wheels for Decisions
-            </Link>
-            <Link href="/blog/party-games-for-adults" className="hover:text-retro-orange transition-colors">
+            </a>
+            <a href="/blog/party-games-for-adults" className="hover:text-retro-orange transition-colors">
               Party Games
-            </Link>
-            <Link href="/blog/spin-wheels-in-modern-education" className="hover:text-retro-orange transition-colors">
+            </a>
+            <a href="/blog/spin-wheels-in-modern-education" className="hover:text-retro-orange transition-colors">
               Classroom Incentive
-            </Link>
-            <Link href="/blog/time-boxing-to-prevent-burnout" className="hover:text-retro-orange transition-colors">
+            </a>
+            <a href="/blog/time-boxing-to-prevent-burnout" className="hover:text-retro-orange transition-colors">
               Avoid Burnout
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -85,18 +86,18 @@ export default function Footer() {
         </p>
 
         <div className="flex gap-6 text-xs font-semibold">
-          <Link href="/about" className="hover:text-retro-orange transition-colors">
+          <a href="/about" className="hover:text-retro-orange transition-colors">
             About Us
-          </Link>
-          <Link href="/contact" className="hover:text-retro-orange transition-colors">
+          </a>
+          <a href="/contact" className="hover:text-retro-orange transition-colors">
             Contact
-          </Link>
-          <Link href="/privacy" className="hover:text-retro-orange transition-colors">
+          </a>
+          <a href="/privacy" className="hover:text-retro-orange transition-colors">
             Privacy Policy
-          </Link>
-          <Link href="/terms" className="hover:text-retro-orange transition-colors">
+          </a>
+          <a href="/terms" className="hover:text-retro-orange transition-colors">
             Terms of Service
-          </Link>
+          </a>
         </div>
       </div>
     </footer>
