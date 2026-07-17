@@ -61,12 +61,7 @@ export default function ContactPage() {
       <Navbar />
 
       <main className="flex-1 max-w-xl mx-auto w-full py-12 px-6">
-        <section className="text-center mb-8 flex flex-col items-center">
-          <img 
-            src="/logo.jpg" 
-            alt="GameWheelClub Logo" 
-            className="w-20 h-20 rounded-lg border-2 border-retro-navy dark:border-cream mb-4 object-cover shadow-md"
-          />
+        <section className="text-center mb-8">
           <h1 className="text-4xl font-black font-display tracking-tight text-retro-navy dark:text-cream mb-2">
             Contact Us
           </h1>
