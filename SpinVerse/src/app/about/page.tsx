@@ -12,9 +12,19 @@ export default function AboutPage() {
           <h1 className="text-4xl md:text-5xl font-black font-display tracking-tight text-retro-navy dark:text-cream mb-4">
             About GameWheelClub
           </h1>
-          <p className="text-lg md:text-xl font-medium opacity-90 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl font-medium opacity-90 max-w-2xl mx-auto mb-8">
             Making decision-making fun, fast, and completely unbiased.
           </p>
+          
+          <div className="flex justify-center mb-6">
+            <div className="p-4 bg-white dark:bg-slate-800 neo-border rounded-xl shadow-lg inline-block">
+              <img 
+                src="/logo.jpg" 
+                alt="GameWheelClub Logo" 
+                className="w-48 h-48 rounded-lg object-cover border-2 border-retro-navy dark:border-cream"
+              />
+            </div>
+          </div>
         </section>
 
         <section className="neo-card p-8 bg-white dark:bg-retro-navy space-y-6">
